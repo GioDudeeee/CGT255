@@ -9508,3 +9508,591 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.04.02-14.01.11:644][872]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Imported/polySurface21.polySurface21
 [2024.04.02-14.01.11:644][872]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Imported/lambert2.lambert2
 [2024.04.02-14.01.11:644][872]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Imported/polySurface23.polySurface23
+[2024.04.02-14.03.13:568][584]Cmd: EDIT COPY
+[2024.04.02-14.03.13:741][587]Cmd: EDIT PASTE
+[2024.04.02-14.03.50:062][262]Cmd: EDIT COPY
+[2024.04.02-14.03.50:284][266]Cmd: EDIT PASTE
+[2024.04.02-14.04.58:255][446]Cmd: TRANSACTION UNDO
+[2024.04.02-14.04.58:256][446]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.04.58:487][446]LogGeometryMode: Warning: Unable to find 1 Edge(s) in new BSP
+[2024.04.02-14.04.58:487][446]LogGeometryMode: Warning: Unable to resolve Brush_58 Brush in new BSP, see above
+[2024.04.02-14.04.58:487][446]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.02-14.06.12:807][779]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-14.06.12:983][779]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.02-14.06.12:983][779]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.02-14.06.13:024][779]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 40 ms (total: 78 ms)
+[2024.04.02-14.06.13:024][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-14.06.13:024][779]PIE: New page: PIE session: FirstPersonMap (Apr 2, 2024, 6:06:13 AM)
+[2024.04.02-14.06.13:024][779]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.06.13:106][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081738s)
+[2024.04.02-14.06.13:106][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.081817s)
+[2024.04.02-14.06.13:146][779]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2024.04.02-14.06.13:148][779]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-14.06.13:148][779]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-14.06.13:149][779]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.02-14.06.13:150][779]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.02-14.06.13:150][779]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.02-14.06.13:150][779]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.02-14.06.13:150][779]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.02-14.06.13:159][779]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.02-14.06.13:159][779]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 548 ms)
+[2024.04.02-14.06.13:159][779]LogPlayLevel: PIE: World Init took: (0.011573s)
+[2024.04.02-14.06.13:159][779]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.04.02-14.06.13:160][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-14.06.13:160][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-14.06.13:160][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-14.06.13:160][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-14.06.13:160][779]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.02-14.06.13:160][779]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-14.06.13:160][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.02-14.06.13:160][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-14.06.13:160][779]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-14.06.13:161][779]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-14.06.13:161][779]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-14.06.13:164][779]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-14.06.13:192][779]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.04.02-14.06.13:192][779]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-14.06.13:192][779]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-14.06.13:192][779]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-14.06.13:193][779]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.04.02-14.06.13:193][779]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.04.02-14.06.13:196][779]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.04.02-14.06.13:197][779]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.04.02-14.06.13:197][779]LogInit: FAudioDevice initialized with ID 3.
+[2024.04.02-14.06.13:197][779]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2024.04.02-14.06.13:197][779]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.04.02-14.06.13:200][779]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.02-14.06.13:205][779]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.02-10.06.13
+[2024.04.02-14.06.13:205][779]LogWorld: Bringing up level for play took: 0.004363
+[2024.04.02-14.06.13:210][779]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2024.04.02-14.06.13:216][779]PIE: Server logged in
+[2024.04.02-14.06.13:217][779]PIE: Play in editor total start time 0.235 seconds.
+[2024.04.02-14.06.16:800][840]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.02-14.06.16:800][840]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.02-14.06.16:800][840]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.02-14.06.23:535][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.06.23:535][978]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.02-14.06.23:535][978]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-14.06.32:356][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.06.32:356][157]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.06.32:357][157]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-14.06.32:359][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.06.32:359][157]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.02-14.06.32:425][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-14.06.32:438][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.06.32:479][157]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-14.06.32:481][157]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.04.02-14.06.32:481][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.02-14.06.32:487][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.02-14.06.32:498][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.06.32:507][157]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2024.04.02-14.06.32:613][158]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2024.04.02-14.06.51:410][430]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-14.06.51:448][430]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.02-14.06.51:448][430]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.02-14.06.51:491][430]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 42 ms (total: 121 ms)
+[2024.04.02-14.06.51:491][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-14.06.51:492][430]PIE: New page: PIE session: FirstPersonMap (Apr 2, 2024, 6:06:51 AM)
+[2024.04.02-14.06.51:492][430]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.06.51:574][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082248s)
+[2024.04.02-14.06.51:574][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.082329s)
+[2024.04.02-14.06.51:597][430]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2024.04.02-14.06.51:600][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-14.06.51:600][430]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-14.06.51:601][430]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.02-14.06.51:602][430]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.02-14.06.51:602][430]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.02-14.06.51:602][430]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.02-14.06.51:602][430]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.02-14.06.51:611][430]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.02-14.06.51:611][430]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 557 ms)
+[2024.04.02-14.06.51:611][430]LogPlayLevel: PIE: World Init took: (0.011826s)
+[2024.04.02-14.06.51:611][430]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.04.02-14.06.51:611][430]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-14.06.51:611][430]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-14.06.51:611][430]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-14.06.51:611][430]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-14.06.51:611][430]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.02-14.06.51:611][430]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-14.06.51:611][430]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.02-14.06.51:611][430]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-14.06.51:611][430]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-14.06.51:611][430]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-14.06.51:611][430]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-14.06.51:617][430]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-14.06.51:638][430]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.04.02-14.06.51:638][430]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-14.06.51:638][430]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-14.06.51:638][430]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-14.06.51:639][430]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.04.02-14.06.51:639][430]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.04.02-14.06.51:642][430]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.04.02-14.06.51:642][430]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.04.02-14.06.51:642][430]LogInit: FAudioDevice initialized with ID 4.
+[2024.04.02-14.06.51:642][430]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2024.04.02-14.06.51:642][430]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.02-14.06.51:646][430]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.02-14.06.51:652][430]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.02-10.06.51
+[2024.04.02-14.06.51:652][430]LogWorld: Bringing up level for play took: 0.004893
+[2024.04.02-14.06.51:657][430]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.04.02-14.06.51:662][430]PIE: Server logged in
+[2024.04.02-14.06.51:663][430]PIE: Play in editor total start time 0.215 seconds.
+[2024.04.02-14.06.55:471][494]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.02-14.06.55:471][494]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.02-14.06.55:471][494]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.02-14.07.01:989][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.07.01:989][630]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.02-14.07.01:989][630]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-14.07.12:266][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.07.12:266][837]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.07.12:266][837]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-14.07.12:268][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.07.12:269][837]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.02-14.07.12:322][837]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-14.07.12:328][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.07.12:351][837]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-14.07.12:352][837]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.02-14.07.12:352][837]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.02-14.07.12:356][837]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.02-14.07.12:367][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.07.12:373][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.04.02-14.07.12:469][838]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.04.02-14.07.24:703][ 11]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-14.07.24:756][ 11]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.02-14.07.24:757][ 11]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.02-14.07.24:809][ 11]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 52 ms (total: 174 ms)
+[2024.04.02-14.07.24:810][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-14.07.24:810][ 11]PIE: New page: PIE session: FirstPersonMap (Apr 2, 2024, 6:07:24 AM)
+[2024.04.02-14.07.24:810][ 11]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.07.24:916][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106000s)
+[2024.04.02-14.07.24:916][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.106124s)
+[2024.04.02-14.07.24:935][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.04.02-14.07.24:937][ 11]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-14.07.24:937][ 11]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-14.07.24:938][ 11]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.02-14.07.24:939][ 11]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.02-14.07.24:939][ 11]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.02-14.07.24:939][ 11]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.02-14.07.24:939][ 11]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.02-14.07.24:948][ 11]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.02-14.07.24:948][ 11]LogWorldPartition: Display: WorldPartition initialize took 8 ms (total: 566 ms)
+[2024.04.02-14.07.24:948][ 11]LogPlayLevel: PIE: World Init took: (0.011230s)
+[2024.04.02-14.07.24:948][ 11]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.04.02-14.07.24:948][ 11]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-14.07.24:948][ 11]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-14.07.24:948][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-14.07.24:948][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-14.07.24:948][ 11]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.02-14.07.24:948][ 11]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-14.07.24:948][ 11]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.02-14.07.24:948][ 11]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-14.07.24:949][ 11]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-14.07.24:949][ 11]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-14.07.24:949][ 11]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-14.07.24:954][ 11]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-14.07.24:975][ 11]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.04.02-14.07.24:976][ 11]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-14.07.24:976][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-14.07.24:976][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-14.07.24:977][ 11]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.04.02-14.07.24:977][ 11]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.04.02-14.07.24:980][ 11]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.04.02-14.07.24:980][ 11]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.04.02-14.07.24:980][ 11]LogInit: FAudioDevice initialized with ID 5.
+[2024.04.02-14.07.24:980][ 11]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2024.04.02-14.07.24:980][ 11]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.02-14.07.24:984][ 11]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.02-14.07.24:989][ 11]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.02-10.07.24
+[2024.04.02-14.07.24:990][ 11]LogWorld: Bringing up level for play took: 0.005201
+[2024.04.02-14.07.24:995][ 11]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.04.02-14.07.25:000][ 11]PIE: Server logged in
+[2024.04.02-14.07.25:001][ 11]PIE: Play in editor total start time 0.244 seconds.
+[2024.04.02-14.07.27:961][ 60]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.02-14.07.27:961][ 60]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.02-14.07.27:961][ 60]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.02-14.07.32:367][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.07.33:392][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.07.33:392][171]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.02-14.07.33:392][171]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-14.07.56:276][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.07.56:276][633]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.07.56:276][633]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-14.07.56:279][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.07.56:279][633]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.02-14.07.56:349][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-14.07.56:358][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.07.56:404][633]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-14.07.56:405][633]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.02-14.07.56:405][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.02-14.07.56:410][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.02-14.07.56:420][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.07.56:426][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.04.02-14.07.56:530][634]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.04.02-14.07.59:233][672]Cmd: DELETE
+[2024.04.02-14.07.59:332][672]Cmd: ACTOR DELETE
+[2024.04.02-14.07.59:360][672]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.02-14.07.59:400][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.04.02-14.07.59:403][672]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2024.04.02-14.07.59:890][679]Cmd: DELETE
+[2024.04.02-14.07.59:891][679]Cmd: ACTOR DELETE
+[2024.04.02-14.07.59:900][679]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.02-14.07.59:933][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2024.04.02-14.07.59:934][679]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2024.04.02-14.08.00:656][688]Cmd: DELETE
+[2024.04.02-14.08.00:658][688]Cmd: ACTOR DELETE
+[2024.04.02-14.08.00:669][688]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.02-14.08.00:706][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.04.02-14.08.00:707][688]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2024.04.02-14.08.48:430][491]Cmd: TRANSACTION UNDO
+[2024.04.02-14.08.48:433][491]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.02-14.08.49:596][506]Cmd: TRANSACTION UNDO
+[2024.04.02-14.08.49:596][506]LogEditorTransaction: Undo Delete Elements
+[2024.04.02-14.08.50:335][516]Cmd: TRANSACTION UNDO
+[2024.04.02-14.08.50:335][516]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.02-14.08.50:864][524]Cmd: TRANSACTION UNDO
+[2024.04.02-14.08.50:865][524]LogEditorTransaction: Undo Delete Elements
+[2024.04.02-14.08.51:436][533]Cmd: TRANSACTION UNDO
+[2024.04.02-14.08.51:436][533]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.02-14.08.51:964][541]Cmd: TRANSACTION UNDO
+[2024.04.02-14.08.51:964][541]LogEditorTransaction: Undo Delete Elements
+[2024.04.02-14.09.08:845][761]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Stairs.SM_Stairs
+[2024.04.02-14.09.08:939][761]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-14.09.08:939][761]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-14.09.09:061][761]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2024.04.02-14.09.10:209][761]LogViewport: Scene viewport resized to 1540x862, mode Windowed.
+[2024.04.02-14.10.20:167][382]LogStaticMesh: Display: Building static mesh SM_Stairs...
+[2024.04.02-14.10.20:181][382]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Props/SM_Stairs.SM_Stairs
+[2024.04.02-14.10.23:094][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-14.10.23:342][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Stairs" FILE="D:/Github/CGT255/CGT225/Content/StarterContent/Props/SM_Stairs.uasset" SILENT=true
+[2024.04.02-14.10.23:442][410]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/SM_Stairs
+[2024.04.02-14.10.23:444][410]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/SM_Stairs44AF0C3D4F93FA60A94FCD94B9A5C65E.tmp' to 'D:/Github/CGT255/CGT225/Content/StarterContent/Props/SM_Stairs.uasset'
+[2024.04.02-14.10.23:465][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 370 ms (total: 12.8 sec)
+[2024.04.02-14.10.23:467][410]AssetCheck: New page: Asset Save: SM_Stairs
+[2024.04.02-14.10.23:467][410]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/StarterContent/Props/SM_Stairs.SM_Stairs
+[2024.04.02-14.10.25:235][433]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-14.10.25:271][433]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.02-14.10.25:271][433]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.02-14.10.25:317][433]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 45 ms (total: 220 ms)
+[2024.04.02-14.10.25:317][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-14.10.25:318][433]PIE: New page: PIE session: FirstPersonMap (Apr 2, 2024, 6:10:25 AM)
+[2024.04.02-14.10.25:318][433]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.10.25:401][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083006s)
+[2024.04.02-14.10.25:401][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.083089s)
+[2024.04.02-14.10.25:421][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.04.02-14.10.25:423][433]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-14.10.25:423][433]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-14.10.25:424][433]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.02-14.10.25:424][433]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.02-14.10.25:425][433]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.02-14.10.25:425][433]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.02-14.10.25:425][433]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.02-14.10.25:433][433]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.02-14.10.25:433][433]LogWorldPartition: Display: WorldPartition initialize took 7 ms (total: 574 ms)
+[2024.04.02-14.10.25:433][433]LogPlayLevel: PIE: World Init took: (0.009865s)
+[2024.04.02-14.10.25:433][433]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.04.02-14.10.25:433][433]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-14.10.25:433][433]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-14.10.25:433][433]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-14.10.25:433][433]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-14.10.25:433][433]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.02-14.10.25:433][433]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-14.10.25:433][433]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.02-14.10.25:433][433]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-14.10.25:433][433]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-14.10.25:433][433]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-14.10.25:433][433]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-14.10.25:436][433]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-14.10.25:474][433]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.04.02-14.10.25:474][433]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-14.10.25:475][433]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-14.10.25:475][433]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-14.10.25:475][433]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.04.02-14.10.25:475][433]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.04.02-14.10.25:478][433]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.04.02-14.10.25:478][433]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.04.02-14.10.25:478][433]LogInit: FAudioDevice initialized with ID 6.
+[2024.04.02-14.10.25:478][433]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2024.04.02-14.10.25:478][433]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.02-14.10.25:481][433]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.02-14.10.25:488][433]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.02-10.10.25
+[2024.04.02-14.10.25:489][433]LogWorld: Bringing up level for play took: 0.006430
+[2024.04.02-14.10.25:493][433]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.04.02-14.10.25:499][433]PIE: Server logged in
+[2024.04.02-14.10.25:501][433]PIE: Play in editor total start time 0.23 seconds.
+[2024.04.02-14.10.28:428][472]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.02-14.10.28:428][472]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.02-14.10.28:428][472]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.02-14.10.33:894][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.10.33:894][585]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.02-14.10.33:894][585]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-14.10.58:015][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.10.58:015][ 70]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.10.58:016][ 70]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-14.10.58:018][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.10.58:019][ 70]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.02-14.10.58:073][ 70]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-14.10.58:082][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.10.58:128][ 70]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-14.10.58:128][ 70]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.02-14.10.58:129][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.02-14.10.58:134][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.02-14.10.58:146][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.10.58:155][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2024.04.02-14.10.58:266][ 71]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.04.02-14.11.21:994][421]Cmd: TRANSACTION UNDO
+[2024.04.02-14.11.21:994][421]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.11.22:230][421]LogGeometryMode: Warning: Unable to find 1 Edge(s) in new BSP
+[2024.04.02-14.11.22:230][421]LogGeometryMode: Warning: Unable to resolve Brush_24 Brush in new BSP, see above
+[2024.04.02-14.11.22:230][421]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.02-14.11.32:815][567]LogGeomTools: Triangulation of poly failed.
+[2024.04.02-14.11.50:882][837]LogGeometryMode: Warning: Unable to find Brush_23 Brush(s) in new BSP
+[2024.04.02-14.11.50:882][837]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.02-14.11.52:584][862]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-14.11.52:616][862]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.02-14.11.52:616][862]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.02-14.11.52:660][862]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 43 ms (total: 263 ms)
+[2024.04.02-14.11.52:660][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-14.11.52:660][862]PIE: New page: PIE session: FirstPersonMap (Apr 2, 2024, 6:11:52 AM)
+[2024.04.02-14.11.52:661][862]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.11.52:778][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117305s)
+[2024.04.02-14.11.52:778][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.117404s)
+[2024.04.02-14.11.52:804][862]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2024.04.02-14.11.52:807][862]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-14.11.52:807][862]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-14.11.52:809][862]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.02-14.11.52:810][862]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.02-14.11.52:810][862]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.02-14.11.52:810][862]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.02-14.11.52:810][862]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.02-14.11.52:820][862]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.02-14.11.52:820][862]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 583 ms)
+[2024.04.02-14.11.52:820][862]LogPlayLevel: PIE: World Init took: (0.011998s)
+[2024.04.02-14.11.52:820][862]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.04.02-14.11.52:820][862]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-14.11.52:820][862]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-14.11.52:820][862]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-14.11.52:820][862]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-14.11.52:820][862]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.02-14.11.52:820][862]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-14.11.52:820][862]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.02-14.11.52:820][862]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-14.11.52:821][862]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-14.11.52:821][862]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-14.11.52:821][862]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-14.11.52:825][862]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-14.11.52:846][862]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.04.02-14.11.52:846][862]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-14.11.52:846][862]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-14.11.52:846][862]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-14.11.52:847][862]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.04.02-14.11.52:847][862]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.04.02-14.11.52:851][862]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.04.02-14.11.52:851][862]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.04.02-14.11.52:851][862]LogInit: FAudioDevice initialized with ID 7.
+[2024.04.02-14.11.52:851][862]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonMap'.
+[2024.04.02-14.11.52:851][862]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.02-14.11.52:855][862]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.02-14.11.52:860][862]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.02-10.11.52
+[2024.04.02-14.11.52:861][862]LogWorld: Bringing up level for play took: 0.004865
+[2024.04.02-14.11.52:865][862]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.04.02-14.11.52:870][862]PIE: Server logged in
+[2024.04.02-14.11.52:871][862]PIE: Play in editor total start time 0.255 seconds.
+[2024.04.02-14.11.56:812][927]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.02-14.11.56:812][927]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.02-14.11.56:812][927]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.02-14.12.02:185][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.12.02:186][ 38]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.02-14.12.02:186][ 38]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-14.12.22:674][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.12.22:674][462]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.12.22:675][462]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-14.12.22:676][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.12.22:676][462]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.02-14.12.22:748][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-14.12.22:755][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.12.22:798][462]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-14.12.22:798][462]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.02-14.12.22:798][462]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.02-14.12.22:804][462]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.02-14.12.22:815][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.12.22:822][462]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2024.04.02-14.12.22:912][463]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.04.02-14.12.54:314][982]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-14.12.54:370][982]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.02-14.12.54:370][982]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.02-14.12.54:428][982]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 58 ms (total: 322 ms)
+[2024.04.02-14.12.54:429][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-14.12.54:430][982]PIE: New page: PIE session: FirstPersonMap (Apr 2, 2024, 6:12:54 AM)
+[2024.04.02-14.12.54:430][982]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.12.54:523][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092553s)
+[2024.04.02-14.12.54:523][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.092695s)
+[2024.04.02-14.12.54:544][982]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.04.02-14.12.54:546][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-14.12.54:546][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-14.12.54:547][982]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.02-14.12.54:548][982]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.02-14.12.54:548][982]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.02-14.12.54:548][982]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.02-14.12.54:548][982]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.02-14.12.54:556][982]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.02-14.12.54:556][982]LogWorldPartition: Display: WorldPartition initialize took 8 ms (total: 591 ms)
+[2024.04.02-14.12.54:556][982]LogPlayLevel: PIE: World Init took: (0.010618s)
+[2024.04.02-14.12.54:556][982]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.04.02-14.12.54:556][982]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-14.12.54:556][982]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-14.12.54:556][982]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-14.12.54:556][982]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-14.12.54:556][982]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.02-14.12.54:556][982]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-14.12.54:556][982]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.02-14.12.54:557][982]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-14.12.54:557][982]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-14.12.54:557][982]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-14.12.54:557][982]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-14.12.54:561][982]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-14.12.54:582][982]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.04.02-14.12.54:583][982]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-14.12.54:583][982]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-14.12.54:583][982]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-14.12.54:584][982]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.04.02-14.12.54:584][982]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.04.02-14.12.54:587][982]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.04.02-14.12.54:587][982]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.04.02-14.12.54:587][982]LogInit: FAudioDevice initialized with ID 8.
+[2024.04.02-14.12.54:587][982]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonMap'.
+[2024.04.02-14.12.54:587][982]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.02-14.12.54:591][982]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.02-14.12.54:597][982]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.02-10.12.54
+[2024.04.02-14.12.54:598][982]LogWorld: Bringing up level for play took: 0.005333
+[2024.04.02-14.12.54:602][982]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.04.02-14.12.54:609][982]PIE: Server logged in
+[2024.04.02-14.12.54:609][982]PIE: Play in editor total start time 0.24 seconds.
+[2024.04.02-14.12.57:239][ 27]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.02-14.12.57:239][ 27]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.02-14.12.57:239][ 27]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.02-14.13.02:943][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.13.04:305][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.13.04:305][173]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.02-14.13.04:305][173]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.02-14.13.17:884][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.13.17:884][450]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.02-14.13.17:885][450]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-14.13.17:887][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.13.17:888][450]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.02-14.13.17:961][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-14.13.17:969][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-14.13.18:038][450]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.02-14.13.18:039][450]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.02-14.13.18:040][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.02-14.13.18:045][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.02-14.13.18:054][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-14.13.18:060][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2024.04.02-14.13.18:167][451]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.04.02-14.13.18:629][454]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.18:629][454]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.13.19:468][455]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.19:468][455]LogEditorTransaction: Undo Modifier [Edit]
+[2024.04.02-14.13.19:886][456]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.19:886][456]LogEditorTransaction: Undo Modifier [Edit]
+[2024.04.02-14.13.20:266][456]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.20:266][456]LogEditorTransaction: Undo Select Brush Surface
+[2024.04.02-14.13.20:595][456]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.20:595][456]LogEditorTransaction: Undo Select Brush Surface
+[2024.04.02-14.13.20:976][457]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.20:976][457]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.13.21:495][459]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.21:495][459]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.13.21:589][459]LogGeometryMode: Warning: Unable to find 1 Vertex(s) in new BSP
+[2024.04.02-14.13.21:589][459]LogGeometryMode: Warning: Unable to resolve Brush_24 Brush in new BSP, see above
+[2024.04.02-14.13.21:589][459]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.02-14.13.21:774][459]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.21:774][459]LogEditorTransaction: Undo Modifier [Edit]
+[2024.04.02-14.13.22:050][460]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.22:050][460]LogEditorTransaction: Undo Select Brush Surface
+[2024.04.02-14.13.23:386][475]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.23:386][475]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.02-14.13.23:773][477]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.23:773][477]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.02-14.13.24:257][482]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.24:257][482]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.13.25:176][490]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.25:176][490]LogEditorTransaction: Undo Modifier [Edit]
+[2024.04.02-14.13.25:556][492]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.25:556][492]LogEditorTransaction: Undo Modifier [Edit]
+[2024.04.02-14.13.26:070][495]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.26:071][495]LogEditorTransaction: Undo Modifier [Edit]
+[2024.04.02-14.13.26:631][501]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.26:631][501]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.13.26:842][501]LogGeometryMode: Warning: Unable to find 1 Vertex(s) in new BSP
+[2024.04.02-14.13.26:842][501]LogGeometryMode: Warning: Unable to resolve Brush_24 Brush in new BSP, see above
+[2024.04.02-14.13.26:842][501]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.02-14.13.27:164][505]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.27:164][505]LogEditorTransaction: Undo Modifier [Edit]
+[2024.04.02-14.13.27:954][514]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.27:954][514]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.13.28:196][514]LogGeometryMode: Warning: Unable to find 1 Vertex(s) in new BSP
+[2024.04.02-14.13.28:197][514]LogGeometryMode: Warning: Unable to resolve Brush_24 Brush in new BSP, see above
+[2024.04.02-14.13.28:197][514]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.02-14.13.28:644][519]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.28:645][519]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.13.28:885][519]LogGeometryMode: Warning: Unable to find 1 Vertex(s) in new BSP
+[2024.04.02-14.13.28:885][519]LogGeometryMode: Warning: Unable to resolve Brush_24 Brush in new BSP, see above
+[2024.04.02-14.13.28:885][519]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.02-14.13.29:393][525]Cmd: TRANSACTION UNDO
+[2024.04.02-14.13.29:393][525]LogEditorTransaction: Undo Modifier [Edit]
+[2024.04.02-14.15.07:219][227]Cmd: TRANSACTION UNDO
+[2024.04.02-14.15.07:219][227]LogEditorTransaction: Undo Move Elements
+[2024.04.02-14.15.07:374][227]LogGeometryMode: Warning: Unable to find 1 Edge(s) in new BSP
+[2024.04.02-14.15.07:374][227]LogGeometryMode: Warning: Unable to resolve Brush_40 Brush in new BSP, see above
+[2024.04.02-14.15.07:374][227]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.02-14.15.33:759][670]Cmd: EDIT COPY
+[2024.04.02-14.15.33:983][674]Cmd: EDIT PASTE
+[2024.04.02-14.16.23:390][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2024.04.02-14.16.23:407][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-14.16.23:481][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Maps/FirstPersonMap" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.02-14.16.23:736][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.02-14.16.26:762][550]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2024.04.02-14.16.26:764][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/FirstPersonMap2BA5584943CF3083518F139ACA9ECD5A.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2024.04.02-14.16.26:806][550]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/ID/P42Z5QVOVRP7W5SXLO4DGN
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/10/9RG97YWLLJQCTHW0Z56LQ3
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1W/Z6Y7OSP98IQ6C8LT56JBJU
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/G9/NVV3JSU28O3KVEVQKWG8KJ
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VB/I9EPJ46WMSMH6HQISR8ERG
+[2024.04.02-14.16.26:806][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-14.16.26:823][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/ID/P42Z5QVOVRP7W5SXLO4DGN
+[2024.04.02-14.16.26:826][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/P42Z5QVOVRP7W5SXLO4DGN3795530F4BD472E7DD1143B9D4FC4045.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/ID/P42Z5QVOVRP7W5SXLO4DGN.uasset'
+[2024.04.02-14.16.26:849][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/10/9RG97YWLLJQCTHW0Z56LQ3
+[2024.04.02-14.16.26:852][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/9RG97YWLLJQCTHW0Z56LQ36248C5304CA66ADC473678BBBF1AA498.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/10/9RG97YWLLJQCTHW0Z56LQ3.uasset'
+[2024.04.02-14.16.26:870][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1W/Z6Y7OSP98IQ6C8LT56JBJU
+[2024.04.02-14.16.26:870][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/Z6Y7OSP98IQ6C8LT56JBJU8880E7D2479EF9D6833D8A917F36AD20.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1W/Z6Y7OSP98IQ6C8LT56JBJU.uasset'
+[2024.04.02-14.16.26:985][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/G9/NVV3JSU28O3KVEVQKWG8KJ
+[2024.04.02-14.16.26:985][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/NVV3JSU28O3KVEVQKWG8KJF510B9F24313BB7D62320B9A8C0AA839.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/G9/NVV3JSU28O3KVEVQKWG8KJ.uasset'
+[2024.04.02-14.16.27:110][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VB/I9EPJ46WMSMH6HQISR8ERG
+[2024.04.02-14.16.27:113][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/I9EPJ46WMSMH6HQISR8ERG7C4988254BCC3DBA3093B2931F45BEBC.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VB/I9EPJ46WMSMH6HQISR8ERG.uasset'
+[2024.04.02-14.16.27:129][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 323 ms (total: 13.2 sec)
+[2024.04.02-14.16.27:129][550]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/ID/P42Z5QVOVRP7W5SXLO4DGN
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/10/9RG97YWLLJQCTHW0Z56LQ3
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1W/Z6Y7OSP98IQ6C8LT56JBJU
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/G9/NVV3JSU28O3KVEVQKWG8KJ
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VB/I9EPJ46WMSMH6HQISR8ERG
+[2024.04.02-14.16.27:131][550]LogFileHelpers: Saving map 'FirstPersonMap' took 3.651
+[2024.04.02-14.16.27:149][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/ID/P42Z5QVOVRP7W5SXLO4DGN
+[2024.04.02-14.16.27:152][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/P42Z5QVOVRP7W5SXLO4DGNEF761BCB473AECFF5B3000BD5C96459F.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/ID/P42Z5QVOVRP7W5SXLO4DGN.uasset'
+[2024.04.02-14.16.27:176][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/10/9RG97YWLLJQCTHW0Z56LQ3
+[2024.04.02-14.16.27:179][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/9RG97YWLLJQCTHW0Z56LQ37E55E62F4C14D0ECE9473DAF84860DB7.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/10/9RG97YWLLJQCTHW0Z56LQ3.uasset'
+[2024.04.02-14.16.27:204][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1W/Z6Y7OSP98IQ6C8LT56JBJU
+[2024.04.02-14.16.27:206][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/Z6Y7OSP98IQ6C8LT56JBJU057EAE174317B6CE13CBB7A7DCB0B1F1.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1W/Z6Y7OSP98IQ6C8LT56JBJU.uasset'
+[2024.04.02-14.16.27:230][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/G9/NVV3JSU28O3KVEVQKWG8KJ
+[2024.04.02-14.16.27:233][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/NVV3JSU28O3KVEVQKWG8KJEAC34ECF4631B325378E53BC6F183D0C.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/G9/NVV3JSU28O3KVEVQKWG8KJ.uasset'
+[2024.04.02-14.16.27:257][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VB/I9EPJ46WMSMH6HQISR8ERG
+[2024.04.02-14.16.27:260][550]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/I9EPJ46WMSMH6HQISR8ERG9837F5454BECC5D7EBFDF48EF57753DC.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VB/I9EPJ46WMSMH6HQISR8ERG.uasset'
+[2024.04.02-14.16.27:312][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.90 sec (total: 17.1 sec)
+[2024.04.02-14.16.27:316][550]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.02-14.16.27:316][550]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.04.02-14.16.27:316][550]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C245E801_1338761302
+[2024.04.02-14.16.27:316][550]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C245E801_1292575301
+[2024.04.02-14.16.27:316][550]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C246E801_1627210481
+[2024.04.02-14.16.27:316][550]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C245E801_1960710304
+[2024.04.02-14.16.27:316][550]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C245E801_1374014303
