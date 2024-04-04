@@ -5,12 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Program Files/Epic Games/UE_5.3/Engine/Content/BasicShapes/BasicShapeMaterial.uasset",
 				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/DR/2CZAWSR4AREMZ14U4HZZ4Z.uasset",
 				"D:/Github/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap",
 				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/EM/5NNUOFE1OQBLXE4PLPHWMH.uasset",
 				"D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/door.uasset",
 				"D:/Github/CGT255/CGT225/Content/Imported/sci_fi_door_642709__creature.uasset",
+<<<<<<< HEAD
 				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G.uasset",
 				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/HM/SZG08BNT0A7QT77PEUT41J.uasset",
 				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ZL/05ESHHSR17VVFG95KVNCGB.uasset",
@@ -88,6 +88,16 @@
 				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VB/I9EPJ46WMSMH6HQISR8ERG.uasset",
 				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/V6/66JT1SGMOW7TMG2EXA4WOL.uasset",
 				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/EZ/9UYB7L2Q6KECU61V2EI4GW.uasset",
+=======
+				"D:/Github/CGT255/CGT225/Content/NotesWidget/NotesPickUpBP.uasset",
+				"D:/Github/CGT255/CGT225/Content/NotesWidget/NotesPickUpWidgetBP.uasset",
+				"D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/XC/WB6EGX76PSWEOU183WIC2R.uasset",
+				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/RG/V7K25ZJVKHTZYDN2UVBSL3.uasset",
+				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/U9/JIVNG801GKFKP197W7OAQA.uasset",
+				"D:/Github/CGT255/CGT225/Content/NotesWidget/NotesPickWidgetUpBP.uasset",
+				"C:/Program Files/Epic Games/UE_5.3/Engine/Content/BasicShapes/BasicShapeMaterial.uasset",
+>>>>>>> parent of e548ae4 (Revert "Merge branch 'main' of https://github.com/GioDudeeee/CGT255")
 				"C:/Users/gtuzzio/Downloads/CGT225/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/temp/cgt255/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap",
 				"C:/temp/cgt255/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R.uasset",
