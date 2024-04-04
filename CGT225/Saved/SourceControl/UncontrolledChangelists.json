@@ -10,20 +10,24 @@
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/door1.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/door1.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/keypad.uasset",
-				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/keypad.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/NewBlueprint.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/NewBlueprint.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/paperpassword.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/paperpassword.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Map/mapmat.uasset",
-				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Map/map.uasset",
-				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/1N/SVX3C8X90Z5OPMPP1V0WFS.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Map/Interact.uasset",
-				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Map/interaction.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Map/NewTextureRenderTarget2D.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Map/smallmap.uasset",
 				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
-				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/L2/8M7V39HLQQ9S5XLA17P8KL.uasset"
+				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/L2/8M7V39HLQQ9S5XLA17P8KL.uasset",
+				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Dialogue/Dialogue.uasset",
+				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Dialogue/DialogueText.uasset",
+				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Dialogue/computer.uasset",
+				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Dialogue/chatLog.uasset",
+				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/keypad.uasset",
+				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Map/map.uasset",
+				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/1N/SVX3C8X90Z5OPMPP1V0WFS.uasset",
+				"C:/Users/giotu/Dropbox/PC/Documents/GitHub/CGT255/CGT225/Content/FirstPerson/Blueprints/Map/interaction.uasset"
 			]
 		}
 	]
