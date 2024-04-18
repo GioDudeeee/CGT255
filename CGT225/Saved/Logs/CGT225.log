@@ -2268,3 +2268,212 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.18-15.50.08:102][924]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/263128__pan14__tone-beep-amb-verb.263128__pan14__tone-beep-amb-verb
 [2024.04.18-15.50.08:102][924]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/426892__thisusernameis__beep5.426892__thisusernameis__beep5
 [2024.04.18-15.50.08:102][924]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/478189__jonnyruss01__beep_soft_2.478189__jonnyruss01__beep_soft_2
+[2024.04.18-15.55.23:110][933]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.18-15.55.23:358][933]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.18-15.55.23:358][933]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.18-15.55.23:382][933]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 24 ms (total: 359 ms)
+[2024.04.18-15.55.23:382][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.18-15.55.23:382][933]PIE: New page: PIE session: FirstPersonMap (Apr 18, 2024, 7:55:23 AM)
+[2024.04.18-15.55.23:382][933]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.18-15.55.23:608][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.225374s)
+[2024.04.18-15.55.23:608][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.225464s)
+[2024.04.18-15.55.23:636][933]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2024.04.18-15.55.23:638][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.18-15.55.23:638][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.18-15.55.23:639][933]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.18-15.55.23:641][933]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.18-15.55.23:641][933]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.18-15.55.23:641][933]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.18-15.55.23:641][933]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.18-15.55.23:659][933]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.18-15.55.23:659][933]LogWorldPartition: Display: WorldPartition initialize took 18 ms (total: 506 ms)
+[2024.04.18-15.55.23:659][933]LogPlayLevel: PIE: World Init took: (0.021294s)
+[2024.04.18-15.55.23:659][933]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.04.18-15.55.23:659][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.18-15.55.23:659][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.18-15.55.23:659][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.18-15.55.23:659][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.18-15.55.23:659][933]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.18-15.55.23:659][933]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.18-15.55.23:659][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.18-15.55.23:659][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.18-15.55.23:660][933]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.18-15.55.23:660][933]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.18-15.55.23:660][933]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.18-15.55.23:664][933]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.18-15.55.23:688][933]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Beats Studio Black)
+[2024.04.18-15.55.23:689][933]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.18-15.55.23:689][933]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.18-15.55.23:689][933]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.18-15.55.23:691][933]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.04.18-15.55.23:691][933]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.04.18-15.55.23:693][933]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.04.18-15.55.23:693][933]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.04.18-15.55.23:693][933]LogInit: FAudioDevice initialized with ID 9.
+[2024.04.18-15.55.23:693][933]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2024.04.18-15.55.23:693][933]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.18-15.55.23:697][933]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.18-15.55.23:707][933]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.04.18-11.55.23
+[2024.04.18-15.55.23:707][933]LogWorld: Bringing up level for play took: 0.010210
+[2024.04.18-15.55.23:711][933]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.04.18-15.55.23:718][933]PIE: Server logged in
+[2024.04.18-15.55.23:719][933]PIE: Play in editor total start time 0.361 seconds.
+[2024.04.18-15.55.24:359][936]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] success
+[2024.04.18-15.55.26:314][961]LogBlueprintUserMessages: [smallmap_C_UAID_088FC30BFE08FCE801_1933144510] success
+[2024.04.18-15.55.27:225][975]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.18-15.55.27:225][975]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.18-15.55.27:225][975]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.18-15.55.39:848][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-15.55.41:295][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-15.55.41:295][191]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.18-15.55.41:295][191]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.18-15.55.44:126][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-15.55.47:839][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-15.55.54:162][357]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.18-15.55.54:162][357]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.04.18-15.55.57:022][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-15.55.57:022][395]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.18-15.55.57:022][395]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.18-15.55.59:336][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-15.55.59:337][425]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.18-15.55.59:338][425]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.18-15.55.59:344][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.18-15.55.59:346][425]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.18-15.55.59:436][425]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.18-15.55.59:463][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.18-15.55.59:501][425]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.18-15.55.59:501][425]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.18-15.55.59:501][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.18-15.55.59:506][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.18-15.55.59:527][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-15.55.59:535][425]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2024.04.18-15.55.59:682][426]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.04.18-15.56.14:170][563]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.18-15.56.14:208][563]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.18-15.56.14:246][564]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.18-15.56.17:130][600]LogContentBrowser: Attempting asset rename: NewFolder -> SFX
+[2024.04.18-15.56.17:214][600]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.18-15.56.22:237][646]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-15.56.22:319][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/Door/keypad" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/keypad.uasset" SILENT=true
+[2024.04.18-15.56.22:795][646]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/Door/keypad
+[2024.04.18-15.56.22:797][646]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/keypadC3C2E375434D06F6487463BE4C857CFF.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/keypad.uasset'
+[2024.04.18-15.56.22:803][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/263128__pan14__tone-beep-amb-verb" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/263128__pan14__tone-beep-amb-verb.uasset" SILENT=true
+[2024.04.18-15.56.22:827][646]LogSavePackage: Moving output files for package: /Game/Imported/SFX/263128__pan14__tone-beep-amb-verb
+[2024.04.18-15.56.22:827][646]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/263128__pan14__tone-beep-amb-ver89AA88594C13DF487ED6348200670155.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/263128__pan14__tone-beep-amb-verb.uasset'
+[2024.04.18-15.56.22:845][646]LogFileHelpers: InternalPromptForCheckoutAndSave took 607 ms (total: 2.83 sec)
+[2024.04.18-15.56.22:890][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2024.04.18-15.56.22:914][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.04.18-15.56.22:935][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.04.18-15.56.22:960][646]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.18-15.56.22:961][646]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/Door/keypad.keypad
+[2024.04.18-15.56.22:963][646]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/263128__pan14__tone-beep-amb-verb.263128__pan14__tone-beep-amb-verb
+[2024.04.18-15.56.26:636][682]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-15.56.26:729][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/Door/keypad" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/keypad.uasset" SILENT=true
+[2024.04.18-15.56.27:250][682]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/Door/keypad
+[2024.04.18-15.56.27:252][682]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/keypad5992ADDE41C0A7B42B14DAB9C12DA4B8.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/keypad.uasset'
+[2024.04.18-15.56.27:258][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/426892__thisusernameis__beep5" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/426892__thisusernameis__beep5.uasset" SILENT=true
+[2024.04.18-15.56.27:276][682]LogSavePackage: Moving output files for package: /Game/Imported/SFX/426892__thisusernameis__beep5
+[2024.04.18-15.56.27:276][682]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/426892__thisusernameis__beep58472EEDE4FD69AADE010158E95FE7334.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/426892__thisusernameis__beep5.uasset'
+[2024.04.18-15.56.27:294][682]LogFileHelpers: InternalPromptForCheckoutAndSave took 659 ms (total: 3.49 sec)
+[2024.04.18-15.56.27:332][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2024.04.18-15.56.27:354][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.04.18-15.56.27:373][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.04.18-15.56.27:399][682]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.18-15.56.27:399][682]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/Door/keypad.keypad
+[2024.04.18-15.56.27:401][682]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/426892__thisusernameis__beep5.426892__thisusernameis__beep5
+[2024.04.18-15.56.31:344][718]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-15.56.31:422][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/Door/keypad" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/keypad.uasset" SILENT=true
+[2024.04.18-15.56.31:927][718]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/Door/keypad
+[2024.04.18-15.56.31:929][718]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/keypadF5FDC1914B2CEDE681F8038B4D746639.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/keypad.uasset'
+[2024.04.18-15.56.31:934][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/478189__jonnyruss01__beep_soft_2" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/478189__jonnyruss01__beep_soft_2.uasset" SILENT=true
+[2024.04.18-15.56.31:946][718]LogSavePackage: Moving output files for package: /Game/Imported/SFX/478189__jonnyruss01__beep_soft_2
+[2024.04.18-15.56.31:947][718]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/478189__jonnyruss01__beep_soft_217793E01425B604702615882A917D157.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/478189__jonnyruss01__beep_soft_2.uasset'
+[2024.04.18-15.56.31:965][718]LogFileHelpers: InternalPromptForCheckoutAndSave took 620 ms (total: 4.11 sec)
+[2024.04.18-15.56.32:015][718]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2024.04.18-15.56.32:036][718]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2024.04.18-15.56.32:056][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.04.18-15.56.32:078][718]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.18-15.56.32:078][718]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/Door/keypad.keypad
+[2024.04.18-15.56.32:079][718]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/478189__jonnyruss01__beep_soft_2.478189__jonnyruss01__beep_soft_2
+[2024.04.18-15.56.35:329][749]LogMetaData: Removing '/Game/Imported/SFX/ambiance.ambiance:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Imported/ambiance.PackageMetaData'
+[2024.04.18-15.56.35:334][749]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-15.56.35:441][749]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.18-15.56.35:473][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/Cube_Blueprint" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Cube_Blueprint.uasset" SILENT=true
+[2024.04.18-15.56.35:530][749]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/Cube_Blueprint
+[2024.04.18-15.56.35:531][749]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/Cube_Blueprint41C449AC4F1EB4B9F31CCB846FD50B25.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Cube_Blueprint.uasset'
+[2024.04.18-15.56.35:536][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/ambiance" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/ambiance.uasset" SILENT=true
+[2024.04.18-15.56.35:549][749]LogSavePackage: Moving output files for package: /Game/Imported/SFX/ambiance
+[2024.04.18-15.56.35:549][749]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/ambiance9273D4FC4569283EE645FBA8B0DFF302.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/ambiance.uasset'
+[2024.04.18-15.56.35:564][749]LogFileHelpers: InternalPromptForCheckoutAndSave took 230 ms (total: 4.34 sec)
+[2024.04.18-15.56.35:596][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2024.04.18-15.56.35:617][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.04.18-15.56.35:636][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.04.18-15.56.35:654][749]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.18-15.56.35:654][749]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/Cube_Blueprint.Cube_Blueprint
+[2024.04.18-15.56.35:656][749]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Imported/SFX/ambiance.ambiance
+[2024.04.18-15.56.39:371][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-15.56.39:495][785]LogSavePackage: Moving output files for package: /Game/Imported/SFX/ambient-spacecraft-hum__221570__alaskarobotics
+[2024.04.18-15.56.39:495][785]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/ambient-spacecraft-hum__221570__0F7D5C4542E66017A7E97B9694523CDD.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/ambient-spacecraft-hum__221570__alaskarobotics.uasset'
+[2024.04.18-15.56.39:512][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 4.48 sec)
+[2024.04.18-15.56.39:546][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.04.18-15.56.39:567][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.04.18-15.56.39:585][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.18-15.56.39:605][785]AssetCheck: New page: Asset Save: ambient-spacecraft-hum__221570__alaskarobotics
+[2024.04.18-15.56.39:605][785]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/ambient-spacecraft-hum__221570__alaskarobotics.ambient-spacecraft-hum__221570__alaskarobotics
+[2024.04.18-15.56.43:058][819]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-15.56.43:126][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/ambiance" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/ambiance.uasset" SILENT=true
+[2024.04.18-15.56.43:142][819]LogSavePackage: Moving output files for package: /Game/Imported/SFX/ambiance
+[2024.04.18-15.56.43:144][819]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/ambiance1ECD137F45E94C0B609AE3A4DB6DBFD1.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/ambiance.uasset'
+[2024.04.18-15.56.43:241][819]LogSavePackage: Moving output files for package: /Game/Imported/SFX/kaiju-lab-interior-ambience-1__191852__vortex4
+[2024.04.18-15.56.43:241][819]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/kaiju-lab-interior-ambience-1__1FACD96734EEE2EE9218ABDA36DD5C253.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/kaiju-lab-interior-ambience-1__191852__vortex4.uasset'
+[2024.04.18-15.56.43:261][819]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 4.69 sec)
+[2024.04.18-15.56.43:294][819]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2024.04.18-15.56.43:315][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.04.18-15.56.43:333][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.04.18-15.56.43:356][819]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.18-15.56.43:356][819]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Imported/SFX/ambiance.ambiance
+[2024.04.18-15.56.43:356][819]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/kaiju-lab-interior-ambience-1__191852__vortex4.kaiju-lab-interior-ambience-1__191852__vortex4
+[2024.04.18-15.56.46:597][850]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-15.56.46:661][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/ambiance" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/ambiance.uasset" SILENT=true
+[2024.04.18-15.56.46:679][850]LogSavePackage: Moving output files for package: /Game/Imported/SFX/ambiance
+[2024.04.18-15.56.46:681][850]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/ambianceADF0F7484DCAA9CFFA9F5EA4250885F4.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/ambiance.uasset'
+[2024.04.18-15.56.46:686][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/lab_ambience_688249__saangosu" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/lab_ambience_688249__saangosu.uasset" SILENT=true
+[2024.04.18-15.56.46:920][850]LogSavePackage: Moving output files for package: /Game/Imported/SFX/lab_ambience_688249__saangosu
+[2024.04.18-15.56.46:920][850]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/lab_ambience_688249__saangosuA20D399F4D701A890D30A99E92781D55.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/lab_ambience_688249__saangosu.uasset'
+[2024.04.18-15.56.46:941][850]LogFileHelpers: InternalPromptForCheckoutAndSave took 344 ms (total: 5.03 sec)
+[2024.04.18-15.56.46:978][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2024.04.18-15.56.47:003][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2024.04.18-15.56.47:021][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.04.18-15.56.47:042][850]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.18-15.56.47:042][850]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Imported/SFX/ambiance.ambiance
+[2024.04.18-15.56.47:042][850]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/lab_ambience_688249__saangosu.lab_ambience_688249__saangosu
+[2024.04.18-15.56.59:630][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-15.56.59:729][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/Door/door1" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/door1.uasset" SILENT=true
+[2024.04.18-15.56.59:819][981]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/Door/door1
+[2024.04.18-15.56.59:821][981]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/door1A672F4B14EFD8564B5A5448AAD22587E.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/door1.uasset'
+[2024.04.18-15.56.59:825][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/sci_fi_door_642709__creature" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/sci_fi_door_642709__creature.uasset" SILENT=true
+[2024.04.18-15.56.59:842][981]LogSavePackage: Moving output files for package: /Game/Imported/SFX/sci_fi_door_642709__creature
+[2024.04.18-15.56.59:842][981]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/sci_fi_door_642709__creature2B1DDB4346D6BA72F472C2BD7BBA654E.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/sci_fi_door_642709__creature.uasset'
+[2024.04.18-15.56.59:859][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 229 ms (total: 5.26 sec)
+[2024.04.18-15.56.59:894][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.04.18-15.56.59:917][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2024.04.18-15.56.59:938][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.04.18-15.56.59:958][981]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.18-15.56.59:958][981]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/Door/door1.door1
+[2024.04.18-15.56.59:958][981]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/sci_fi_door_642709__creature.sci_fi_door_642709__creature
+[2024.04.18-15.57.04:348][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-15.57.04:479][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/Door/door1" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/door1.uasset" SILENT=true
+[2024.04.18-15.57.04:576][ 23]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/Door/door1
+[2024.04.18-15.57.04:578][ 23]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/door1204B92BE4E2AD89000FDBABC04EBCF88.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/door1.uasset'
+[2024.04.18-15.57.04:584][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/sci_fi_door_close__642709__creature" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/sci_fi_door_close__642709__creature.uasset" SILENT=true
+[2024.04.18-15.57.04:599][ 23]LogSavePackage: Moving output files for package: /Game/Imported/SFX/sci_fi_door_close__642709__creature
+[2024.04.18-15.57.04:599][ 23]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/sci_fi_door_close__642709__creat618BECC04FDD135ADB1395813E3C57D5.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/sci_fi_door_close__642709__creature.uasset'
+[2024.04.18-15.57.04:619][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave took 272 ms (total: 5.53 sec)
+[2024.04.18-15.57.04:657][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2024.04.18-15.57.04:697][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.04.18-15.57.04:716][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.04.18-15.57.04:741][ 23]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.18-15.57.04:741][ 23]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/Door/door1.door1
+[2024.04.18-15.57.04:741][ 23]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/sci_fi_door_close__642709__creature.sci_fi_door_close__642709__creature
+[2024.04.18-15.57.47:884][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2024.04.18-16.01.47:762][ 36]LogDerivedDataCache: C:/Users/Dynas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.220 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1346 files in 2246 folders with total size 69 MiB.
