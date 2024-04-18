@@ -5,17 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
-				"D:/Github/CGT255/CGT225/Content/ScottsProjectContent/NotesPickup.uasset",
-				"D:/Github/CGT255/CGT225/Content/ScottsProjectContent/NotesPickUpWidgetBP.uasset",
-				"D:/Github/CGT255/CGT225/Content/ScottsProjectContent/NotesPickUpBP.uasset",
-				"D:/Github/CGT255/CGT225/Content/NotesWidget/NotesPickUpBP.uasset",
-				"D:/Github/CGT255/CGT225/Content/ScottsProjectContent/DoorandLock/BP_DOOR.uasset",
-				"D:/Github/CGT255/CGT225/Content/ScottsProjectContent/DoorandLock/BP_Key.uasset",
 				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/ZH/PSWX0WIGGX9J1XYGAUZ0PZ.uasset",
-				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/LW/D8D777V52VZ4QN6RR6I3HN.uasset",
-				"D:/Github/CGT255/CGT225/Content/NotesWidget/NotesPickUpWidgetBP.uasset",
-				"D:/Github/CGT255/CGT225/Content/NotesWidget/NotesPickup.uasset"
+				"D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/LW/D8D777V52VZ4QN6RR6I3HN.uasset"
 			]
 		}
 	]
