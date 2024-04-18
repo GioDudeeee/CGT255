@@ -2477,3 +2477,246 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.18-15.57.04:741][ 23]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/sci_fi_door_close__642709__creature.sci_fi_door_close__642709__creature
 [2024.04.18-15.57.47:884][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
 [2024.04.18-16.01.47:762][ 36]LogDerivedDataCache: C:/Users/Dynas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.220 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1346 files in 2246 folders with total size 69 MiB.
+[2024.04.18-16.04.13:589][631]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\Dynas\OneDrive - purdue.edu\CGT 255\Assignments\group project\SFX\door\sci-fi-door__171705__peepholecircus.wav)
+[2024.04.18-16.04.13:592][631]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave sci-fi-door__171705__peepholecircus...
+[2024.04.18-16.04.13:598][631]LogAudio: Display: Chunk sizes for SoundWave /Game/Imported/SFX/sci-fi-door__171705__peepholecircus.sci-fi-door__171705__peepholecircus: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.18-16.04.13:599][631]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave sci-fi-door__171705__peepholecircus...
+[2024.04.18-16.04.13:606][631]LogAudio: Display: Chunk sizes for SoundWave /Game/Imported/SFX/sci-fi-door__171705__peepholecircus.sci-fi-door__171705__peepholecircus: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.18-16.04.33:130][855]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.18-16.04.33:135][855]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.18-16.04.34:384][859]LogSlate: Window 'Outliner' being destroyed
+[2024.04.18-16.04.34:389][859]LogSlate: Window 'Outliner' being destroyed
+[2024.04.18-16.05.23:077][315]BlueprintLog: New page: Compile keypad
+[2024.04.18-16.05.23:146][315]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2024.04.18-16.05.26:580][349]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.18-16.05.26:650][349]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.18-16.05.26:651][349]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.18-16.05.26:700][349]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 49 ms (total: 409 ms)
+[2024.04.18-16.05.26:701][349]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.18-16.05.26:703][349]LogPlayLevel: [PlayLevel] Compiling door1 before play...
+[2024.04.18-16.05.26:800][349]LogPlayLevel: [PlayLevel] Compiling Cube_Blueprint before play...
+[2024.04.18-16.05.26:862][349]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2024.04.18-16.05.26:869][349]LogPlayLevel: PlayLevel: Blueprint regeneration took 168 ms (2 blueprints)
+[2024.04.18-16.05.26:870][349]PIE: New page: PIE session: FirstPersonMap (Apr 18, 2024, 8:05:26 AM)
+[2024.04.18-16.05.26:870][349]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.18-16.05.27:088][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.218719s)
+[2024.04.18-16.05.27:088][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.218850s)
+[2024.04.18-16.05.27:106][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.04.18-16.05.27:106][349]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.18-16.05.27:107][349]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.18-16.05.27:107][349]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.18-16.05.27:108][349]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.18-16.05.27:108][349]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.18-16.05.27:108][349]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.18-16.05.27:108][349]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.18-16.05.27:126][349]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.18-16.05.27:126][349]LogWorldPartition: Display: WorldPartition initialize took 17 ms (total: 523 ms)
+[2024.04.18-16.05.27:126][349]LogPlayLevel: PIE: World Init took: (0.019259s)
+[2024.04.18-16.05.27:126][349]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.04.18-16.05.27:126][349]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.18-16.05.27:126][349]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.18-16.05.27:126][349]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.18-16.05.27:126][349]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.18-16.05.27:126][349]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.18-16.05.27:126][349]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.18-16.05.27:126][349]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.18-16.05.27:126][349]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.18-16.05.27:126][349]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.18-16.05.27:126][349]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.18-16.05.27:127][349]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.18-16.05.27:130][349]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.18-16.05.27:158][349]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Beats Studio Black)
+[2024.04.18-16.05.27:158][349]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.18-16.05.27:158][349]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.18-16.05.27:158][349]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.18-16.05.27:159][349]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.04.18-16.05.27:159][349]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.04.18-16.05.27:162][349]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.04.18-16.05.27:162][349]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.04.18-16.05.27:162][349]LogInit: FAudioDevice initialized with ID 10.
+[2024.04.18-16.05.27:162][349]LogAudio: Display: Audio Device (ID: 10) registered with world 'FirstPersonMap'.
+[2024.04.18-16.05.27:162][349]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.18-16.05.27:166][349]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.18-16.05.27:176][349]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.18-12.05.27
+[2024.04.18-16.05.27:176][349]LogWorld: Bringing up level for play took: 0.009218
+[2024.04.18-16.05.27:182][349]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.04.18-16.05.27:188][349]PIE: Server logged in
+[2024.04.18-16.05.27:189][349]PIE: Play in editor total start time 0.539 seconds.
+[2024.04.18-16.05.27:976][352]LogBlueprintUserMessages: [smallmap_C_UAID_088FC30BFE08FCE801_1933144510] success
+[2024.04.18-16.05.28:168][354]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] success
+[2024.04.18-16.05.32:991][417]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.18-16.05.32:991][417]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.18-16.05.32:991][417]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.18-16.05.49:282][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.05.50:860][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.05.50:860][639]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.18-16.05.50:860][639]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.18-16.05.58:111][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.06.01:392][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.06.04:056][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.06.05:195][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.06.05:195][825]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.18-16.06.05:196][825]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.18-16.06.05:199][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.18-16.06.05:199][825]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.18-16.06.05:310][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.18-16.06.05:319][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.18-16.06.05:348][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.06.05:350][825]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.18-16.06.05:350][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.18-16.06.05:354][825]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.18-16.06.05:368][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.04.18-16.06.05:507][826]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.04.18-16.06.34:771][129]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18417751648590128577
+[2024.04.18-16.06.34:772][129]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.04.18-16.06.49:536][292]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/pod_open_fbx_pSphere1.pod_open_fbx_pSphere1
+[2024.04.18-16.06.49:536][292]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/pod_open_fbx_pSphere1.pod_open_fbx_pSphere1
+[2024.04.18-16.06.49:537][292]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imported/pod_open_fbx_pSphere1.pod_open_fbx_pSphere1 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3
+[2024.04.18-16.06.50:964][308]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/pod_open_fbx_pSphere1.pod_open_fbx_pSphere1
+[2024.04.18-16.06.50:964][308]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/pod_open_fbx_pSphere1.pod_open_fbx_pSphere1
+[2024.04.18-16.06.51:006][308]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imported/pod_open_fbx_pSphere1.pod_open_fbx_pSphere1 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C654ED01_1282269230
+[2024.04.18-16.08.10:458][178]LogViewport: Scene viewport resized to 1588x1131, mode Windowed.
+[2024.04.18-16.08.10:675][179]LogViewport: Scene viewport resized to 1496x1131, mode Windowed.
+[2024.04.18-16.08.10:814][180]LogViewport: Scene viewport resized to 1408x1131, mode Windowed.
+[2024.04.18-16.08.11:024][181]LogViewport: Scene viewport resized to 1363x1131, mode Windowed.
+[2024.04.18-16.08.11:184][182]LogViewport: Scene viewport resized to 1334x1131, mode Windowed.
+[2024.04.18-16.08.11:643][186]LogViewport: Scene viewport resized to 1333x1131, mode Windowed.
+[2024.04.18-16.08.11:877][187]LogViewport: Scene viewport resized to 1329x1131, mode Windowed.
+[2024.04.18-16.10.00:886][456]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.18-16.10.00:927][456]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.18-16.10.00:927][456]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.18-16.10.00:962][456]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 34 ms (total: 444 ms)
+[2024.04.18-16.10.00:962][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.18-16.10.00:962][456]PIE: New page: PIE session: FirstPersonMap (Apr 18, 2024, 8:10:00 AM)
+[2024.04.18-16.10.00:962][456]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.18-16.10.01:177][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.214593s)
+[2024.04.18-16.10.01:177][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.214697s)
+[2024.04.18-16.10.01:209][456]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2024.04.18-16.10.01:214][456]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.18-16.10.01:214][456]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.18-16.10.01:215][456]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.18-16.10.01:216][456]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.18-16.10.01:216][456]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.18-16.10.01:216][456]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.18-16.10.01:216][456]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.18-16.10.01:234][456]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.18-16.10.01:234][456]LogWorldPartition: Display: WorldPartition initialize took 18 ms (total: 542 ms)
+[2024.04.18-16.10.01:234][456]LogPlayLevel: PIE: World Init took: (0.020883s)
+[2024.04.18-16.10.01:235][456]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.18-16.10.01:235][456]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.18-16.10.01:235][456]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.18-16.10.01:235][456]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.18-16.10.01:235][456]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.18-16.10.01:235][456]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.18-16.10.01:235][456]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.18-16.10.01:235][456]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.18-16.10.01:235][456]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.18-16.10.01:235][456]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.18-16.10.01:235][456]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.18-16.10.01:236][456]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.18-16.10.01:239][456]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.18-16.10.01:266][456]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Beats Studio Black)
+[2024.04.18-16.10.01:267][456]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.18-16.10.01:267][456]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.18-16.10.01:267][456]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.18-16.10.01:269][456]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.18-16.10.01:269][456]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.04.18-16.10.01:272][456]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.18-16.10.01:272][456]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.18-16.10.01:272][456]LogInit: FAudioDevice initialized with ID 11.
+[2024.04.18-16.10.01:272][456]LogAudio: Display: Audio Device (ID: 11) registered with world 'FirstPersonMap'.
+[2024.04.18-16.10.01:272][456]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.18-16.10.01:276][456]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.18-16.10.01:286][456]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.18-12.10.01
+[2024.04.18-16.10.01:287][456]LogWorld: Bringing up level for play took: 0.009632
+[2024.04.18-16.10.01:291][456]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.04.18-16.10.01:299][456]PIE: Server logged in
+[2024.04.18-16.10.01:301][456]PIE: Play in editor total start time 0.374 seconds.
+[2024.04.18-16.10.01:926][459]LogBlueprintUserMessages: [smallmap_C_UAID_088FC30BFE08FCE801_1933144510] success
+[2024.04.18-16.10.02:147][460]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] success
+[2024.04.18-16.10.10:461][574]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.18-16.10.10:462][574]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.18-16.10.10:462][574]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.04.18-16.10.14:854][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.10.16:397][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.10.16:397][652]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.18-16.10.16:397][652]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.04.18-16.10.27:596][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.10.27:597][806]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.18-16.10.27:597][806]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.18-16.10.27:602][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.18-16.10.27:602][806]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.18-16.10.27:709][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.18-16.10.27:717][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.18-16.10.27:742][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.18-16.10.27:744][806]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.18-16.10.27:744][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.18-16.10.27:748][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.18-16.10.27:761][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.04.18-16.10.27:896][807]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.04.18-16.10.48:154][ 13]LogGeometryMode: Warning: Unable to find Brush_43 Brush(s) in new BSP
+[2024.04.18-16.10.48:154][ 13]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.18-16.11.51:522][708]Cmd: TRANSACTION UNDO
+[2024.04.18-16.11.51:523][708]LogEditorTransaction: Undo Move Elements
+[2024.04.18-16.11.52:104][708]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2024.04.18-16.11.52:104][708]LogGeometryMode: Warning: Unable to resolve Brush_91 Brush in new BSP, see above
+[2024.04.18-16.11.52:104][708]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.18-16.11.54:115][727]LogGeometryMode: Warning: Unable to find Brush_55 Brush(s) in new BSP
+[2024.04.18-16.11.54:115][727]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.18-16.14.44:654][712]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2024.04.18-16.14.44:673][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-16.14.44:737][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Maps/FirstPersonMap" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.18-16.14.44:829][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.04.18-16.14.45:431][712]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2024.04.18-16.14.45:431][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/FirstPersonMapB57A237D429348EBF9438C810322496F.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2024.04.18-16.14.45:450][712]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VQ/FERKU25YTDRYU4MIPEAMH2
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/J1/0X0U0IE2M3CZYYOH55BSC4
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/OI/Z02HXU00CFXDYUUOFN5JP4
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/T2/Y9XPJPMOABHTDLQ9SS0Z3G
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/KS/X414KVF3B6P2M0ONS81T0D
+[2024.04.18-16.14.45:450][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.18-16.14.45:457][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VQ/FERKU25YTDRYU4MIPEAMH2
+[2024.04.18-16.14.45:458][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/FERKU25YTDRYU4MIPEAMH27ED1E8F94B8FD46A438AEB9524505618.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VQ/FERKU25YTDRYU4MIPEAMH2.uasset'
+[2024.04.18-16.14.45:465][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/J1/0X0U0IE2M3CZYYOH55BSC4
+[2024.04.18-16.14.45:466][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/0X0U0IE2M3CZYYOH55BSC4EC543197415590B54990B1910E316E06.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/J1/0X0U0IE2M3CZYYOH55BSC4.uasset'
+[2024.04.18-16.14.45:472][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/OI/Z02HXU00CFXDYUUOFN5JP4
+[2024.04.18-16.14.45:474][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/Z02HXU00CFXDYUUOFN5JP4657D70214C026FAA91E5AFA97E840AD7.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/OI/Z02HXU00CFXDYUUOFN5JP4.uasset'
+[2024.04.18-16.14.45:482][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/T2/Y9XPJPMOABHTDLQ9SS0Z3G
+[2024.04.18-16.14.45:482][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/Y9XPJPMOABHTDLQ9SS0Z3GB3D3087A43F506BB6CB688A32F90FF90.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/T2/Y9XPJPMOABHTDLQ9SS0Z3G.uasset'
+[2024.04.18-16.14.45:490][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/KS/X414KVF3B6P2M0ONS81T0D
+[2024.04.18-16.14.45:490][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/X414KVF3B6P2M0ONS81T0D886C3A4E48F8FC718663F0B968CE9E0C.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/KS/X414KVF3B6P2M0ONS81T0D.uasset'
+[2024.04.18-16.14.45:539][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 5.62 sec)
+[2024.04.18-16.14.45:539][712]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VQ/FERKU25YTDRYU4MIPEAMH2
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/J1/0X0U0IE2M3CZYYOH55BSC4
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/OI/Z02HXU00CFXDYUUOFN5JP4
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/T2/Y9XPJPMOABHTDLQ9SS0Z3G
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/KS/X414KVF3B6P2M0ONS81T0D
+[2024.04.18-16.14.45:544][712]LogFileHelpers: Saving map 'FirstPersonMap' took 0.810
+[2024.04.18-16.14.45:553][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VQ/FERKU25YTDRYU4MIPEAMH2
+[2024.04.18-16.14.45:554][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/FERKU25YTDRYU4MIPEAMH28B73E3C64F47F86AAE2EA792A892BA95.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/VQ/FERKU25YTDRYU4MIPEAMH2.uasset'
+[2024.04.18-16.14.45:561][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/J1/0X0U0IE2M3CZYYOH55BSC4
+[2024.04.18-16.14.45:562][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/0X0U0IE2M3CZYYOH55BSC46F00528A4B0058870D92F58382FF78C9.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/J1/0X0U0IE2M3CZYYOH55BSC4.uasset'
+[2024.04.18-16.14.45:570][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/OI/Z02HXU00CFXDYUUOFN5JP4
+[2024.04.18-16.14.45:571][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/Z02HXU00CFXDYUUOFN5JP4BED9DABC4F4CB2B2D46F568316D5B200.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/OI/Z02HXU00CFXDYUUOFN5JP4.uasset'
+[2024.04.18-16.14.45:579][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/T2/Y9XPJPMOABHTDLQ9SS0Z3G
+[2024.04.18-16.14.45:580][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/Y9XPJPMOABHTDLQ9SS0Z3G4BCE20D64C888D51DDED098E36C1AD8B.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/T2/Y9XPJPMOABHTDLQ9SS0Z3G.uasset'
+[2024.04.18-16.14.45:589][712]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/KS/X414KVF3B6P2M0ONS81T0D
+[2024.04.18-16.14.45:589][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/X414KVF3B6P2M0ONS81T0D3B3EEFC94E302A385ADEE6A0716F03D1.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/KS/X414KVF3B6P2M0ONS81T0D.uasset'
+[2024.04.18-16.14.45:594][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/Door/keypad" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/keypad.uasset" SILENT=true
+[2024.04.18-16.14.45:772][712]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/Door/keypad
+[2024.04.18-16.14.45:774][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/keypad5E49FF3B4DFE9F21D66344A94BEAAC22.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Blueprints/Door/keypad.uasset'
+[2024.04.18-16.14.45:778][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/SFX/sci-fi-door__171705__peepholecircus" FILE="D:/Github/CGT255/CGT225/Content/Imported/SFX/sci-fi-door__171705__peepholecircus.uasset" SILENT=true
+[2024.04.18-16.14.45:788][712]LogSavePackage: Moving output files for package: /Game/Imported/SFX/sci-fi-door__171705__peepholecircus
+[2024.04.18-16.14.45:788][712]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/sci-fi-door__171705__peepholecir6B0F6D0545DF76175601C18269C414F3.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/SFX/sci-fi-door__171705__peepholecircus.uasset'
+[2024.04.18-16.14.45:799][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.12 sec (total: 6.75 sec)
+[2024.04.18-16.14.45:805][712]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.18-16.14.45:805][712]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.04.18-16.14.45:805][712]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C651ED01_1701800693
+[2024.04.18-16.14.45:805][712]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C651ED01_1600379691
+[2024.04.18-16.14.45:805][712]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C651ED01_1689694692
+[2024.04.18-16.14.45:805][712]LogContentValidation: Display: Validating /Script/Engine.PointLight /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.PointLight_UAID_B0DCEFB2E9C652ED01_1089970874
+[2024.04.18-16.14.45:805][712]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C654ED01_1282269230
+[2024.04.18-16.14.45:805][712]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/Door/keypad.keypad
+[2024.04.18-16.14.45:807][712]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Imported/SFX/sci-fi-door__171705__peepholecircus.sci-fi-door__171705__peepholecircus
