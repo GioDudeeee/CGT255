@@ -5518,3 +5518,21 @@ Are you sure you want to proceed?
 [2024.04.20-20.38.43:155][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
 [2024.04.20-20.38.43:169][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 17.3 sec)
 [2024.04.20-20.38.46:274][221]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2024.04.20-20.39.44:325][786]Cmd: SELECT NONE
+[2024.04.20-20.40.33:045][416]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.04.20-20.40.33:052][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.20-20.40.33:110][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Maps/FirstPersonMap" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.20-20.40.33:233][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.04.20-20.40.34:244][416]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2024.04.20-20.40.34:245][416]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/FirstPersonMapECF4B7D44D7D0ADD7D7230ABEEC8CFFE.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2024.04.20-20.40.34:272][416]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/8S/9OBRKVAA216UR1WBBKZN53
+[2024.04.20-20.40.34:272][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.20-20.40.34:290][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.04.20-20.40.34:308][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.04.20-20.40.34:324][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.04.20-20.40.34:327][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 17.3 sec)
+[2024.04.20-20.40.34:330][416]LogFileHelpers: Saving map 'FirstPersonMap' took 1.222
+[2024.04.20-20.40.34:339][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.28 sec (total: 18.6 sec)
+[2024.04.20-20.40.34:346][416]AssetCheck: New page: Asset Save: FirstPersonMap
+[2024.04.20-20.40.34:346][416]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
