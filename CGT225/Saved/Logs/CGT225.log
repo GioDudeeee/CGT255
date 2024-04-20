@@ -2687,3 +2687,391 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.20-18.19.20:445][238]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
 [2024.04.20-18.19.20:445][238]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
 [2024.04.20-18.19.20:445][238]MaterialEditorStats: Shader Count: 33
+[2024.04.20-18.26.23:412][823]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Dynas\OneDrive - purdue.edu\CGT 255\Assignments\group project\assets fbx\shelf 2 FBX.fbx)
+[2024.04.20-18.26.23:425][823]LogFbx: Loading FBX Scene from C:\Users\Dynas\OneDrive - purdue.edu\CGT 255\Assignments\group project\assets fbx\shelf 2 FBX.fbx
+[2024.04.20-18.26.23:453][823]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.20-18.26.24:947][823]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.20-18.26.25:084][823]LogFbx: Display: Triangulating static mesh Full_Shelf
+[2024.04.20-18.26.25:149][823]LogStaticMesh: Display: Building static mesh shelf_2_FBX...
+[2024.04.20-18.26.25:195][823]LogStaticMesh: Built static mesh [0.05s] /Game/Imported/Space_Game/shelf_2_FBX.shelf_2_FBX
+[2024.04.20-18.26.25:198][823]LogStaticMesh: Warning: shelf_2_FBX has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.04.20-18.26.25:198][823]LogStaticMesh: Warning: shelf_2_FBX has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.04.20-18.26.25:221][823]FBXImport: FBX File Loading: Found name clash, node 'pCube7' was renamed to 'pCube71' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube10' was renamed to 'pCube102' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube13' was renamed to 'pCube133' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube12' was renamed to 'pCube124' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube15' was renamed to 'pCube155' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube16' was renamed to 'pCube166' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube8' was renamed to 'pCube87' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube20' was renamed to 'pCube208' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube3' was renamed to 'pCube39' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube11' was renamed to 'pCube1110' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube9' was renamed to 'pCube911' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube14' was renamed to 'pCube1412' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube18' was renamed to 'pCube1813' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube19' was renamed to 'pCube1914' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube17' was renamed to 'pCube1715' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube21' was renamed to 'pCube2116' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube7' was renamed to 'pCube717' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube10' was renamed to 'pCube1018' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube13' was renamed to 'pCube1319' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube12' was renamed to 'pCube1220' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube15' was renamed to 'pCube1521' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube16' was renamed to 'pCube1622' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube8' was renamed to 'pCube823' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube20' was renamed to 'pCube2024' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube3' was renamed to 'pCube325' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube11' was renamed to 'pCube1126' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube9' was renamed to 'pCube927' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube14' was renamed to 'pCube1428' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube18' was renamed to 'pCube1829' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube19' was renamed to 'pCube1930' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube17' was renamed to 'pCube1731' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube21' was renamed to 'pCube2132' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube7' was renamed to 'pCube733' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube10' was renamed to 'pCube1034' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube13' was renamed to 'pCube1335' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube12' was renamed to 'pCube1236' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube15' was renamed to 'pCube1537' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube16' was renamed to 'pCube1638' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube8' was renamed to 'pCube839' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube20' was renamed to 'pCube2040' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube3' was renamed to 'pCube341' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube11' was renamed to 'pCube1142' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube9' was renamed to 'pCube943' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube14' was renamed to 'pCube1444' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube18' was renamed to 'pCube1845' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube19' was renamed to 'pCube1946' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube17' was renamed to 'pCube1747' 
+[2024.04.20-18.26.25:222][823]FBXImport: FBX File Loading: Found name clash, node 'pCube21' was renamed to 'pCube2148' 
+[2024.04.20-18.26.25:222][823]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.04.20-18.26.25:222][823]FBXImport: Warning: shelf_2_FBX has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.04.20-18.26.25:222][823]FBXImport: Warning: shelf_2_FBX has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: ================================================
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Total job queries 771, among them cache hits 530 (68.74%)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Tracking 229 distinct input hashes that result in 90 distinct outputs (39.30%)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: RAM used: 479.46 KiB of 819.20 MiB budget. Usage: 0.06%
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Shaders Compiled: 195
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Jobs assigned 195, completed 195 (100%)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Average time worker was idle: 16.80 s
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Time job spent in pending queue: average 0.21 s, longest 1.25 s
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Job execution time: average 1.10 s, max 2.62 s
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Job life time (pending + execution): average 1.31 s, max 2.75
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Shader code size: average 3.6 KiB, min 524 B, max 9.684 KiB
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 42.34 s
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Jobs were issued in 195 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Average processing rate: 4.61 jobs/sec
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Total thread time: 155.883 s
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Total thread preprocess time: 16.094 s
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Percentage time preprocessing: 10.32%
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Effective parallelization: 3.68 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled   15 times, average 0.98 sec, max 1.38 sec, min 0.81 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   19 times, average 0.95 sec, max 1.53 sec, min 0.52 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   19 times, average 0.91 sec, max 1.40 sec, min 0.66 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   17 times, average 0.89 sec, max 1.36 sec, min 0.67 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled   15 times, average 0.81 sec, max 1.23 sec, min 0.70 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.56% of total time (compiled   19 times, average 0.95 sec, max 1.53 sec, min 0.52 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.06% of total time (compiled   19 times, average 0.91 sec, max 1.40 sec, min 0.66 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.68% of total time (compiled   17 times, average 0.89 sec, max 1.36 sec, min 0.67 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 9.47% of total time (compiled   15 times, average 0.98 sec, max 1.38 sec, min 0.81 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.78% of total time (compiled   15 times, average 0.81 sec, max 1.23 sec, min 0.70 sec)
+[2024.04.20-18.26.25:424][824]LogShaderCompilers: Display: ================================================
+[2024.04.20-18.26.39:374][193]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Dynas\OneDrive - purdue.edu\CGT 255\Assignments\group project\assets fbx\shelf FBX.fbx)
+[2024.04.20-18.26.39:380][193]LogFbx: Loading FBX Scene from C:\Users\Dynas\OneDrive - purdue.edu\CGT 255\Assignments\group project\assets fbx\shelf FBX.fbx
+[2024.04.20-18.26.39:384][193]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.20-18.26.41:505][193]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.20-18.26.41:605][193]LogFbx: Display: Triangulating static mesh Shelf1
+[2024.04.20-18.26.41:610][193]LogStaticMesh: Display: Building static mesh shelf_FBX...
+[2024.04.20-18.26.41:612][193]LogStaticMesh: Built static mesh [0.00s] /Game/Imported/Space_Game/shelf_FBX.shelf_FBX
+[2024.04.20-18.26.41:643][193]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.04.20-18.26.59:393][  6]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/Space_Game/shelf_FBX.shelf_FBX
+[2024.04.20-18.26.59:394][  6]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/Space_Game/shelf_FBX.shelf_FBX
+[2024.04.20-18.26.59:396][  6]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imported/Space_Game/shelf_FBX.shelf_FBX as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_1
+[2024.04.20-18.27.00:330][ 48]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/Space_Game/shelf_FBX.shelf_FBX
+[2024.04.20-18.27.00:330][ 48]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/Space_Game/shelf_FBX.shelf_FBX
+[2024.04.20-18.27.00:389][ 48]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imported/Space_Game/shelf_FBX.shelf_FBX as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FCED01_2103008790
+[2024.04.20-18.27.07:206][391]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FCED01_2103008790.StaticMeshComponent0, from: Addition to navoctree)
+[2024.04.20-18.27.07:208][391]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FCED01_2103008790.StaticMeshComponent0, from: Remove from navoctree)
+[2024.04.20-18.27.09:820][509]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FCED01_2103008790.StaticMeshComponent0, from: Addition to navoctree)
+[2024.04.20-18.27.09:823][509]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FCED01_2103008790.StaticMeshComponent0, from: Remove from navoctree)
+[2024.04.20-18.27.49:330][382]LogEditorViewport: Clicking Background
+[2024.04.20-18.28.43:746][416]Cmd: EDIT COPY
+[2024.04.20-18.28.43:901][418]Cmd: EDIT PASTE
+[2024.04.20-18.28.55:895][562]Cmd: EDIT COPY
+[2024.04.20-18.28.56:100][565]Cmd: EDIT PASTE
+[2024.04.20-18.29.16:080][803]Cmd: EDIT COPY
+[2024.04.20-18.29.16:217][805]Cmd: EDIT PASTE
+[2024.04.20-18.29.24:039][899]Cmd: EDIT COPY
+[2024.04.20-18.29.24:127][900]Cmd: EDIT PASTE
+[2024.04.20-18.29.43:853][138]Cmd: EDIT COPY
+[2024.04.20-18.29.44:042][140]Cmd: EDIT PASTE
+[2024.04.20-18.30.13:475][489]Cmd: EDIT COPY
+[2024.04.20-18.30.13:632][491]Cmd: EDIT PASTE
+[2024.04.20-18.30.23:059][608]Cmd: EDIT COPY
+[2024.04.20-18.30.23:222][610]Cmd: EDIT PASTE
+[2024.04.20-18.30.29:671][689]Cmd: EDIT COPY
+[2024.04.20-18.30.29:820][691]Cmd: EDIT PASTE
+[2024.04.20-18.30.57:031][ 20]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/Space_Game/shelf_2_FBX.shelf_2_FBX
+[2024.04.20-18.30.57:031][ 20]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/Space_Game/shelf_2_FBX.shelf_2_FBX
+[2024.04.20-18.30.57:034][ 20]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imported/Space_Game/shelf_2_FBX.shelf_2_FBX as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_2
+[2024.04.20-18.30.57:483][ 25]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/Space_Game/shelf_2_FBX.shelf_2_FBX
+[2024.04.20-18.30.57:484][ 25]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Imported/Space_Game/shelf_2_FBX.shelf_2_FBX
+[2024.04.20-18.30.57:542][ 25]LogActorFactory: Actor Factory spawned StaticMesh /Game/Imported/Space_Game/shelf_2_FBX.shelf_2_FBX as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1266419975
+[2024.04.20-18.31.31:296][419]Cmd: EDIT COPY
+[2024.04.20-18.31.31:471][421]Cmd: EDIT PASTE
+[2024.04.20-18.31.51:440][653]Cmd: EDIT COPY
+[2024.04.20-18.31.51:584][655]Cmd: EDIT PASTE
+[2024.04.20-18.32.03:555][797]Cmd: EDIT COPY
+[2024.04.20-18.32.03:710][799]Cmd: EDIT PASTE
+[2024.04.20-18.32.27:938][ 72]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.04.20-18.32.29:038][ 85]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2024.04.20-18.33.24:036][666]Cmd: TRANSACTION UNDO
+[2024.04.20-18.33.24:036][666]LogEditorTransaction: Undo Move Elements
+[2024.04.20-18.33.24:623][666]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2024.04.20-18.33.24:623][666]LogGeometryMode: Warning: Unable to resolve Brush_117 Brush in new BSP, see above
+[2024.04.20-18.33.24:623][666]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.20-18.34.02:944][131]LogGeometryMode: Warning: Unable to find Brush_46 Brush(s) in new BSP
+[2024.04.20-18.34.02:944][131]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2024.04.20-18.34.07:187][170]Cmd: EDIT COPY
+[2024.04.20-18.34.07:340][172]Cmd: EDIT PASTE
+[2024.04.20-18.34.21:497][306]Cmd: TRANSACTION UNDO
+[2024.04.20-18.34.21:497][306]LogEditorTransaction: Undo Move Elements
+[2024.04.20-18.34.27:259][358]Cmd: TRANSACTION UNDO
+[2024.04.20-18.34.27:259][358]LogEditorTransaction: Undo Move Elements
+[2024.04.20-18.35.34:547][162]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TextRenderActor
+[2024.04.20-18.35.34:547][162]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TextRenderActor
+[2024.04.20-18.35.34:550][162]LogActorFactory: Actor Factory spawned Class /Script/Engine.TextRenderActor as actor: TextRenderActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TextRenderActor_0
+[2024.04.20-18.35.34:550][162]LogActorFactory: Actor Factory spawned Class /Script/Engine.TextRenderActor as actor: TextRenderActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TextRenderActor_0
+[2024.04.20-18.35.36:313][182]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TextRenderActor
+[2024.04.20-18.35.36:313][182]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TextRenderActor
+[2024.04.20-18.35.36:373][182]LogActorFactory: Actor Factory spawned Class /Script/Engine.TextRenderActor as actor: TextRenderActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TextRenderActor_UAID_B0DCEFB2E9C6FDED01_1545249979
+[2024.04.20-18.35.36:373][182]LogActorFactory: Actor Factory spawned Class /Script/Engine.TextRenderActor as actor: TextRenderActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TextRenderActor_UAID_B0DCEFB2E9C6FDED01_1545249979
+[2024.04.20-18.37.13:723][376]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.20-18.37.13:946][376]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.20-18.37.13:946][376]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.20-18.37.13:977][376]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 31 ms (total: 313 ms)
+[2024.04.20-18.37.13:977][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.20-18.37.13:977][376]PIE: New page: PIE session: FirstPersonMap (Apr 20, 2024, 10:37:13 AM)
+[2024.04.20-18.37.13:978][376]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.20-18.37.14:360][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.382862s)
+[2024.04.20-18.37.14:360][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.382932s)
+[2024.04.20-18.37.14:419][376]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2024.04.20-18.37.14:424][376]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.20-18.37.14:424][376]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.20-18.37.14:425][376]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.20-18.37.14:426][376]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.20-18.37.14:426][376]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.20-18.37.14:426][376]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.20-18.37.14:426][376]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.20-18.37.14:451][376]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.20-18.37.14:451][376]LogWorldPartition: Display: WorldPartition initialize took 24 ms (total: 2.24 sec)
+[2024.04.20-18.37.14:451][376]LogPlayLevel: PIE: World Init took: (0.027315s)
+[2024.04.20-18.37.14:451][376]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.20-18.37.14:451][376]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.20-18.37.14:451][376]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.20-18.37.14:451][376]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.20-18.37.14:451][376]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.20-18.37.14:451][376]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.20-18.37.14:451][376]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.20-18.37.14:451][376]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.20-18.37.14:451][376]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.20-18.37.14:452][376]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.20-18.37.14:452][376]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.20-18.37.14:452][376]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.20-18.37.14:455][376]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.20-18.37.14:481][376]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.04.20-18.37.14:482][376]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.20-18.37.14:482][376]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.20-18.37.14:482][376]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.20-18.37.14:483][376]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.20-18.37.14:483][376]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.04.20-18.37.14:486][376]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.20-18.37.14:486][376]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.20-18.37.14:486][376]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.20-18.37.14:486][376]LogAudio: Display: Audio Device (ID: 13) registered with world 'FirstPersonMap'.
+[2024.04.20-18.37.14:486][376]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.20-18.37.14:490][376]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.20-18.37.14:503][376]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.04.20-14.37.14
+[2024.04.20-18.37.14:504][376]LogWorld: Bringing up level for play took: 0.012613
+[2024.04.20-18.37.14:508][376]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.04.20-18.37.14:518][376]PIE: Server logged in
+[2024.04.20-18.37.14:519][376]PIE: Play in editor total start time 0.573 seconds.
+[2024.04.20-18.37.35:698][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.20-18.37.35:698][667]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.20-18.37.35:699][667]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.20-18.37.35:705][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.20-18.37.35:706][667]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.20-18.37.35:802][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.20-18.37.35:813][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.20-18.37.35:851][667]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.20-18.37.35:851][667]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.20-18.37.35:852][667]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.20-18.37.35:856][667]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.20-18.37.35:865][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.20-18.37.35:872][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.04.20-18.37.35:967][668]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.04.20-18.37.43:267][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2024.04.20-18.37.43:299][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.20-18.37.43:373][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Maps/FirstPersonMap" FILE="D:/Github/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.20-18.37.43:479][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.04.20-18.37.44:381][741]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2024.04.20-18.37.44:382][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/FirstPersonMap3EBA88514C9C17A793E372A90617E3A6.tmp' to 'D:/Github/CGT255/CGT225/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2024.04.20-18.37.44:415][741]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/ZP/K4T0RRS50SE0UX1CLCTQX0
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3F/7TKYETJ9HQ20JMKOPY33ZA
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/DZ/4JD0LZ776BE6WN5ECJU8GZ
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/75/JDPZSCOFGO2QRUO0OK5NYN
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/VA/QOPON7HG3UMR48075UICFC
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/V2/8OKD4EBV8YL8BCUFOSGKKM
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/7T/ZCRB0KD7U1FQ5EVKWUCSOW
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/S5/KJKQ3BCX4NTXIL8JGP5LH9
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/QO/TKKSWAFY0COX5FG02449LM
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/DZ/E00CFILZYAH27GO666X2GK
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/5X/I0GLV4C80T25PXZWWIIJ07
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/X2/H3UCJO197ORW03KGJNWPM6
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/7Z/HOTB5KE7A794BIVHPJ43N5
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/FW/44M85IQ6SFJGKLGODROO81
+[2024.04.20-18.37.44:415][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.20-18.37.44:425][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/ZP/K4T0RRS50SE0UX1CLCTQX0
+[2024.04.20-18.37.44:425][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/K4T0RRS50SE0UX1CLCTQX0807F4B4A4A72678EEEE5B5974EEAD92E.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/ZP/K4T0RRS50SE0UX1CLCTQX0.uasset'
+[2024.04.20-18.37.44:473][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3F/7TKYETJ9HQ20JMKOPY33ZA
+[2024.04.20-18.37.44:473][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/7TKYETJ9HQ20JMKOPY33ZAF85EDBE245BFC29C94BB00B123C81F0A.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3F/7TKYETJ9HQ20JMKOPY33ZA.uasset'
+[2024.04.20-18.37.44:535][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/DZ/4JD0LZ776BE6WN5ECJU8GZ
+[2024.04.20-18.37.44:535][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/4JD0LZ776BE6WN5ECJU8GZ99607A72428AF5027509E8B988112F53.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/DZ/4JD0LZ776BE6WN5ECJU8GZ.uasset'
+[2024.04.20-18.37.44:593][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/75/JDPZSCOFGO2QRUO0OK5NYN
+[2024.04.20-18.37.44:593][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/JDPZSCOFGO2QRUO0OK5NYN1FA6366F460D586E1F9BA6B16C87AE71.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/75/JDPZSCOFGO2QRUO0OK5NYN.uasset'
+[2024.04.20-18.37.44:666][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/VA/QOPON7HG3UMR48075UICFC
+[2024.04.20-18.37.44:666][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/QOPON7HG3UMR48075UICFC2CD93D7B4552BA7286DFCDAF813F5AC5.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/VA/QOPON7HG3UMR48075UICFC.uasset'
+[2024.04.20-18.37.44:740][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/V2/8OKD4EBV8YL8BCUFOSGKKM
+[2024.04.20-18.37.44:740][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/8OKD4EBV8YL8BCUFOSGKKM258CCBA54E2C3B9DD57F73BC94C6D288.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/V2/8OKD4EBV8YL8BCUFOSGKKM.uasset'
+[2024.04.20-18.37.44:813][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/7T/ZCRB0KD7U1FQ5EVKWUCSOW
+[2024.04.20-18.37.44:813][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/ZCRB0KD7U1FQ5EVKWUCSOWC4EA8BF847DE9B7CB170EBBBF1B9B16F.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/7T/ZCRB0KD7U1FQ5EVKWUCSOW.uasset'
+[2024.04.20-18.37.44:884][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/S5/KJKQ3BCX4NTXIL8JGP5LH9
+[2024.04.20-18.37.44:884][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/KJKQ3BCX4NTXIL8JGP5LH9FFB013F64A991B6E01C8598D280BC607.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/S5/KJKQ3BCX4NTXIL8JGP5LH9.uasset'
+[2024.04.20-18.37.44:958][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/QO/TKKSWAFY0COX5FG02449LM
+[2024.04.20-18.37.44:958][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/TKKSWAFY0COX5FG02449LM0ED132C54392DF568AB4A986D0257ED8.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/QO/TKKSWAFY0COX5FG02449LM.uasset'
+[2024.04.20-18.37.45:031][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/DZ/E00CFILZYAH27GO666X2GK
+[2024.04.20-18.37.45:031][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/E00CFILZYAH27GO666X2GK04C40AA64323A91103FDBC9FED28EC05.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/DZ/E00CFILZYAH27GO666X2GK.uasset'
+[2024.04.20-18.37.45:103][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/5X/I0GLV4C80T25PXZWWIIJ07
+[2024.04.20-18.37.45:103][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/I0GLV4C80T25PXZWWIIJ07A3C05D0F47EE3687948DD682E623E49C.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/5X/I0GLV4C80T25PXZWWIIJ07.uasset'
+[2024.04.20-18.37.45:174][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/X2/H3UCJO197ORW03KGJNWPM6
+[2024.04.20-18.37.45:174][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/H3UCJO197ORW03KGJNWPM62D2FB55E4C785B0EB6E3A1B8DC21DD4C.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/X2/H3UCJO197ORW03KGJNWPM6.uasset'
+[2024.04.20-18.37.45:250][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/7Z/HOTB5KE7A794BIVHPJ43N5
+[2024.04.20-18.37.45:250][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/HOTB5KE7A794BIVHPJ43N505DAFA1540F24337CB4766A1D26B28E3.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/7Z/HOTB5KE7A794BIVHPJ43N5.uasset'
+[2024.04.20-18.37.45:317][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/FW/44M85IQ6SFJGKLGODROO81
+[2024.04.20-18.37.45:317][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/44M85IQ6SFJGKLGODROO8149144C9B4383D633362ED0B678169BA5.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/FW/44M85IQ6SFJGKLGODROO81.uasset'
+[2024.04.20-18.37.45:381][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 965 ms (total: 4.99 sec)
+[2024.04.20-18.37.45:382][741]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/ZP/K4T0RRS50SE0UX1CLCTQX0
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3F/7TKYETJ9HQ20JMKOPY33ZA
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/DZ/4JD0LZ776BE6WN5ECJU8GZ
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/75/JDPZSCOFGO2QRUO0OK5NYN
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/VA/QOPON7HG3UMR48075UICFC
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/V2/8OKD4EBV8YL8BCUFOSGKKM
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/7T/ZCRB0KD7U1FQ5EVKWUCSOW
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/S5/KJKQ3BCX4NTXIL8JGP5LH9
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/QO/TKKSWAFY0COX5FG02449LM
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/DZ/E00CFILZYAH27GO666X2GK
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/5X/I0GLV4C80T25PXZWWIIJ07
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/X2/H3UCJO197ORW03KGJNWPM6
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/7Z/HOTB5KE7A794BIVHPJ43N5
+/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/FW/44M85IQ6SFJGKLGODROO81
+[2024.04.20-18.37.45:385][741]LogFileHelpers: Saving map 'FirstPersonMap' took 2.012
+[2024.04.20-18.37.45:399][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/ZP/K4T0RRS50SE0UX1CLCTQX0
+[2024.04.20-18.37.45:401][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/K4T0RRS50SE0UX1CLCTQX0C27110554E89D1966037A6B7C37DCC05.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/ZP/K4T0RRS50SE0UX1CLCTQX0.uasset'
+[2024.04.20-18.37.45:418][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3F/7TKYETJ9HQ20JMKOPY33ZA
+[2024.04.20-18.37.45:419][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/7TKYETJ9HQ20JMKOPY33ZA08F5C15749BED1A561DA41B8A87F0F7A.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3F/7TKYETJ9HQ20JMKOPY33ZA.uasset'
+[2024.04.20-18.37.45:437][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/DZ/4JD0LZ776BE6WN5ECJU8GZ
+[2024.04.20-18.37.45:439][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/4JD0LZ776BE6WN5ECJU8GZ0B362D17473FABC605A507BD2807D872.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/DZ/4JD0LZ776BE6WN5ECJU8GZ.uasset'
+[2024.04.20-18.37.45:461][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/75/JDPZSCOFGO2QRUO0OK5NYN
+[2024.04.20-18.37.45:463][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/JDPZSCOFGO2QRUO0OK5NYND623AAA549D3B22E46B489AEEBCF8EE0.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/75/JDPZSCOFGO2QRUO0OK5NYN.uasset'
+[2024.04.20-18.37.45:477][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/VA/QOPON7HG3UMR48075UICFC
+[2024.04.20-18.37.45:478][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/QOPON7HG3UMR48075UICFC6AF8BAB441506DCA0EB7DF8A6278CB6C.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/VA/QOPON7HG3UMR48075UICFC.uasset'
+[2024.04.20-18.37.45:488][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/V2/8OKD4EBV8YL8BCUFOSGKKM
+[2024.04.20-18.37.45:488][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/8OKD4EBV8YL8BCUFOSGKKM29988A564B6F7B99C53D97AFE13E8753.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/V2/8OKD4EBV8YL8BCUFOSGKKM.uasset'
+[2024.04.20-18.37.45:496][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/7T/ZCRB0KD7U1FQ5EVKWUCSOW
+[2024.04.20-18.37.45:497][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/ZCRB0KD7U1FQ5EVKWUCSOW2DE9F8224F957576D2E67DA2A5277BCD.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/7T/ZCRB0KD7U1FQ5EVKWUCSOW.uasset'
+[2024.04.20-18.37.45:506][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/S5/KJKQ3BCX4NTXIL8JGP5LH9
+[2024.04.20-18.37.45:507][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/KJKQ3BCX4NTXIL8JGP5LH9746859DD4E29E0358C462AB132CE94AD.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/S5/KJKQ3BCX4NTXIL8JGP5LH9.uasset'
+[2024.04.20-18.37.45:516][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/QO/TKKSWAFY0COX5FG02449LM
+[2024.04.20-18.37.45:517][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/TKKSWAFY0COX5FG02449LM8BBACB1542D294243AF3FD8934AB2BA4.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/QO/TKKSWAFY0COX5FG02449LM.uasset'
+[2024.04.20-18.37.45:528][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/DZ/E00CFILZYAH27GO666X2GK
+[2024.04.20-18.37.45:529][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/E00CFILZYAH27GO666X2GKA357C5AE4B76F10E9977AD9E2C282A0C.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/DZ/E00CFILZYAH27GO666X2GK.uasset'
+[2024.04.20-18.37.45:542][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/5X/I0GLV4C80T25PXZWWIIJ07
+[2024.04.20-18.37.45:543][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/I0GLV4C80T25PXZWWIIJ078B7F037F44BD29440043BFB5250BBC95.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/5X/I0GLV4C80T25PXZWWIIJ07.uasset'
+[2024.04.20-18.37.45:557][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/X2/H3UCJO197ORW03KGJNWPM6
+[2024.04.20-18.37.45:558][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/H3UCJO197ORW03KGJNWPM613BEE18F45E2AC995EECF09792317246.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/X2/H3UCJO197ORW03KGJNWPM6.uasset'
+[2024.04.20-18.37.45:571][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/7Z/HOTB5KE7A794BIVHPJ43N5
+[2024.04.20-18.37.45:573][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/HOTB5KE7A794BIVHPJ43N5E73984FB477486DD1CA3B68BBC51609E.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/7Z/HOTB5KE7A794BIVHPJ43N5.uasset'
+[2024.04.20-18.37.45:587][741]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/FW/44M85IQ6SFJGKLGODROO81
+[2024.04.20-18.37.45:589][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/44M85IQ6SFJGKLGODROO8142DCC7BC40462376597F668A176B7F0F.tmp' to 'D:/Github/CGT255/CGT225/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/FW/44M85IQ6SFJGKLGODROO81.uasset'
+[2024.04.20-18.37.45:640][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/Space_Game/shelf_2_FBX" FILE="D:/Github/CGT255/CGT225/Content/Imported/Space_Game/shelf_2_FBX.uasset" SILENT=true
+[2024.04.20-18.37.45:683][741]LogSavePackage: Moving output files for package: /Game/Imported/Space_Game/shelf_2_FBX
+[2024.04.20-18.37.45:683][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/shelf_2_FBXA6E5E45247071E9BFAD7A6846EB120BE.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/Space_Game/shelf_2_FBX.uasset'
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: ================================================
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Total job queries 789, among them cache hits 548 (69.46%)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Tracking 229 distinct input hashes that result in 90 distinct outputs (39.30%)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: RAM used: 479.46 KiB of 819.20 MiB budget. Usage: 0.06%
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Shaders Compiled: 195
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Jobs assigned 195, completed 195 (100%)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Average time worker was idle: 16.80 s
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Time job spent in pending queue: average 0.21 s, longest 1.25 s
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Job execution time: average 1.10 s, max 2.62 s
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Job life time (pending + execution): average 1.31 s, max 2.75
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Shader code size: average 3.6 KiB, min 524 B, max 9.684 KiB
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 42.34 s
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Jobs were issued in 195 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Average processing rate: 4.61 jobs/sec
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Total thread time: 155.883 s
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Total thread preprocess time: 16.094 s
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Percentage time preprocessing: 10.32%
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Effective parallelization: 3.68 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled   15 times, average 0.98 sec, max 1.38 sec, min 0.81 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   19 times, average 0.95 sec, max 1.53 sec, min 0.52 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   19 times, average 0.91 sec, max 1.40 sec, min 0.66 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   17 times, average 0.89 sec, max 1.36 sec, min 0.67 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled   15 times, average 0.81 sec, max 1.23 sec, min 0.70 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.56% of total time (compiled   19 times, average 0.95 sec, max 1.53 sec, min 0.52 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.06% of total time (compiled   19 times, average 0.91 sec, max 1.40 sec, min 0.66 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.68% of total time (compiled   17 times, average 0.89 sec, max 1.36 sec, min 0.67 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 9.47% of total time (compiled   15 times, average 0.98 sec, max 1.38 sec, min 0.81 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.78% of total time (compiled   15 times, average 0.81 sec, max 1.23 sec, min 0.70 sec)
+[2024.04.20-18.37.45:707][741]LogShaderCompilers: Display: ================================================
+[2024.04.20-18.37.45:720][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/Space_Game/Shelf_Texture" FILE="D:/Github/CGT255/CGT225/Content/Imported/Space_Game/Shelf_Texture.uasset" SILENT=true
+[2024.04.20-18.37.45:733][741]LogSavePackage: Moving output files for package: /Game/Imported/Space_Game/Shelf_Texture
+[2024.04.20-18.37.45:734][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/Shelf_Texture5E398B814793C9EC9FC0B9AD8D81F8C4.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/Space_Game/Shelf_Texture.uasset'
+[2024.04.20-18.37.45:753][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/Space_Game/shelf_FBX" FILE="D:/Github/CGT255/CGT225/Content/Imported/Space_Game/shelf_FBX.uasset" SILENT=true
+[2024.04.20-18.37.45:786][741]LogSavePackage: Moving output files for package: /Game/Imported/Space_Game/shelf_FBX
+[2024.04.20-18.37.45:786][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/shelf_FBXF38CEA384C93A261EBDC6A94715FD3C8.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/Space_Game/shelf_FBX.uasset'
+[2024.04.20-18.37.45:828][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported/Space_Game/lambert1" FILE="D:/Github/CGT255/CGT225/Content/Imported/Space_Game/lambert1.uasset" SILENT=true
+[2024.04.20-18.37.45:840][741]LogSavePackage: Moving output files for package: /Game/Imported/Space_Game/lambert1
+[2024.04.20-18.37.45:840][741]LogSavePackage: Moving 'D:/Github/CGT255/CGT225/Saved/lambert133F7598044FF3E7DAADC9497A3BE877C.tmp' to 'D:/Github/CGT255/CGT225/Content/Imported/Space_Game/lambert1.uasset'
+[2024.04.20-18.37.45:871][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.57 sec (total: 7.56 sec)
+[2024.04.20-18.37.45:880][741]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.20-18.37.45:880][741]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.04.20-18.37.45:880][741]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TextRenderActor_UAID_B0DCEFB2E9C6FDED01_1545249979
+[2024.04.20-18.37.45:880][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FCED01_2103008790
+[2024.04.20-18.37.45:880][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1132840967
+[2024.04.20-18.37.45:880][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1145037968
+[2024.04.20-18.37.45:880][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1165154969
+[2024.04.20-18.37.45:880][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1173065970
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1192980971
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1222568972
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1232159973
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1238757974
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1266419975
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1300408976
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1320521977
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B0DCEFB2E9C6FDED01_1332646978
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Imported/Space_Game/shelf_2_FBX.shelf_2_FBX
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Imported/Space_Game/Shelf_Texture.Shelf_Texture
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Imported/Space_Game/shelf_FBX.shelf_FBX
+[2024.04.20-18.37.45:881][741]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Imported/Space_Game/lambert1.lambert1
